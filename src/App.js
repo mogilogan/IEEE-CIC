@@ -10,11 +10,15 @@ import Paper from "./components/Paper";
 import Registrations from "./components/Registrations";
 import Timelines from "./components/Timelines";
 import Venue from "./components/Venue";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div >
+    <div className="flex flex-col h-auto justify-between" >
+      <div>
       <Header/>
+      </div>
+      <div className="flex-grow">
       <Routes>
         <Route exact path='/' element={<Home/>} />
         <Route exact path='/contact' element={<Contact/>} />
@@ -25,6 +29,10 @@ function App() {
         <Route exact path='/timelines' element={<Timelines/>} />
         <Route exact path='/venue' element={<Venue/>} />
       </Routes>
+      </div>
+      <div>
+      <Footer/>
+      </div>
     </div>
   );
 }
