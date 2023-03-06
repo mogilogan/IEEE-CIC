@@ -22,6 +22,8 @@ const Home  = ()=>{
       <div className='container mx-auto bg-gray-100'>
       <marquee className="py-5"><span className="text-xl  text-yellow-600"> Accepted and Registered papers of CIC 2016 will be published in ESCI-IP&Sc Thomson Reuters-Web of Science, Scopus & Anna Univ-Annex-II International Journals. Substantially Extended Versions of High Quality Papers will be considered for publication in Special Issue of Int. J. of Advanced Intelligence Paradigms, Inderscience, AEU Int.J of E&C, Elsevier* and Int.J. of Ambient Computing & Intelligence, IGI-Global. See Publications for more details.
             </span></marquee>
+           
+
       <h1 className="text-3xl pl-4 font-bold text-blue-700 text-left py-4">CIC 2023</h1>
         <div className='bg-gray-100    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0    '>
            
