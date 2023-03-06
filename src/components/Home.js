@@ -1,10 +1,10 @@
 import React from "react";
 
 import home1 from './assests/home1.jpg';
-import home2 from './assests/home2.jpg';
-import home3 from './assests/home3.jpg';
-import home4 from './assests/home4.jpg';
-import home5 from './assests/home5.jpg';
+// import home2 from './assests/home2.jpg';
+// import home3 from './assests/home3.jpg';
+// import home4 from './assests/home4.jpg';
+// import home5 from './assests/home5.jpg';
 
 
 const Home  = ()=>{
