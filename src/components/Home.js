@@ -12,17 +12,19 @@ const Home  = ()=>{
         <div className="pb-12">
             <h1 className="text-xl pl-4">Home</h1>
 
-            <marquee><span className="text-xl text-yellow-600"> Accepted and Registered papers of CIC 2016 will be published in ESCI-IP&Sc Thomson Reuters-Web of Science, Scopus & Anna Univ-Annex-II International Journals. Substantially Extended Versions of High Quality Papers will be considered for publication in Special Issue of Int. J. of Advanced Intelligence Paradigms, Inderscience, AEU Int.J of E&C, Elsevier* and Int.J. of Ambient Computing & Intelligence, IGI-Global. See Publications for more details.
-            </span></marquee>
+            
 
     <section
       className='my-[5px] '
       id="#About"
 
     >
-      <div className='container mx-auto'>
+      <div className='container mx-auto bg-gray-100'>
+      <marquee className="py-5"><span className="text-xl  text-yellow-600"> Accepted and Registered papers of CIC 2016 will be published in ESCI-IP&Sc Thomson Reuters-Web of Science, Scopus & Anna Univ-Annex-II International Journals. Substantially Extended Versions of High Quality Papers will be considered for publication in Special Issue of Int. J. of Advanced Intelligence Paradigms, Inderscience, AEU Int.J of E&C, Elsevier* and Int.J. of Ambient Computing & Intelligence, IGI-Global. See Publications for more details.
+            </span></marquee>
+      <h1 className="text-3xl pl-4 font-bold text-blue-700 text-left py-4">CIC 2023</h1>
         <div className='bg-gray-100    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0    '>
-            <h1 className="text-3xl font-bold text-blue-700 text-left py-4">CIC 2023</h1>
+           
         <div className='flex-1' data-aos='zoom-in-left'>
             <img className="border-white" src={home1} alt='' />
           </div>
@@ -41,13 +43,36 @@ const Home  = ()=>{
             <p
               className='px-12 pt-4  text-left mx-auto'
             >
-           CIC 2016 is organized by Department of Electronics & Communication Engineering, Pondicherry Engineering College, Puducherry on 19th and 20th , October 2016. The two day conference will include Plenary Talk, Key note Lectures, Paper Presentations and Poster Presentations.
+           CIC 2023 is organized by Department of Electronics & Communication Engineering, Pondicherry Engineering College, Puducherry on 19th and 20th , October 2016. The two day conference will include Plenary Talk, Key note Lectures, Paper Presentations and Poster Presentations.
 Authors are invited to contribute original research papers which can be submitted electronically via the submission Web site https://easychair.org/conferences/?conf=cic2016
             </p>
           </div>
         </div>
+        <div className="pb-6">
+        <div className='container max-w-[640px]  mx-auto bg-blue-200'>
+      <h2 className='h2 mb-10 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
+            SPONSERS
+            </h2>
+        <div className='bg-white   flex flex-col text-left'>
+          <div className='flex-1 '>
+          
+            
+            <p
+              className='px-6 py-6 text-left mx-auto'
+            >
+         CIC 2023 is funded by the Technical Education Quality Improvement Programme (TEQIP) Phase-II . TEQIP is a project of the National Project Implementation Unit (NPIU) , of Ministry of Human Resource Development of the Govt. of India for implementation of World Bank Assisted Projects in Technical Education with an objective of strengthening institutions in the country and scaling-up postgraduate education and demand-driven Research & Development and Innovation.
+            </p>
+          </div>
+        </div>
+        </div>
       </div>
+      </div>
+      
+     
+      
     </section>
+    
+
         </div>
     )
 }
