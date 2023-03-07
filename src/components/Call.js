@@ -16,27 +16,85 @@ const Call  = ()=>{
             <h2 className='h2 mb-10 px-4 pt-2 font font-black text-blue-800 text-xl' >
             CONFERENCE TRACKS
             </h2>
-            <table class="table-fixed">
+            <div className="pb-6 bg-gray-100">
+        <div className='container   mx-auto bg-gray-400'>
+     
+        <div className='bg-gray-100  py-4 mx-auto  grid sm:grid-cols-5 grid-cols-1  gap-0 text-left'>
+          <div className='mx-auto'>
+          <table class=" border-collapse border border-slate-500">
   <thead>
-    <tr className="bg-gray-300">
-      <th className="border border-slate-400">Track 1</th>
-      <th className="border border-slate-400">Track 2</th>
-      <th className="border border-slate-400">Track 3</th>
-      <th className="border border-slate-400">Track 4</th>
-      <th className="border border-slate-400">Track 5</th>
+    <tr>
+      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Track 1</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-    <td className="border border-slate-400 text-center">Computational Intelligence Methodologies</td>
-    <td className="border border-slate-400 text-center">Computational Intelligence in Signal & Image Processing</td>
-    <td className="border border-slate-400 text-center">Computational Intelligence in Wireless Communcation Network</td>
-    <td className="border border-slate-400 text-center"> Computational Methods in Biosignal Processing for Telemedicine</td>
-    <td className="border border-slate-400 text-center"> Computational Intelligence Applications</td>
+      <td class="border py-2 px-2 border-slate-400  text-blue-500">Computational Intelligence Methodologies</td>
     </tr>
-    
   </tbody>
 </table>
+          </div>
+          <div className='mx-auto'>
+          <table class=" border-collapse border border-slate-500 ...">
+  <thead>
+    <tr>
+      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 2</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="border py-2 px-2 border-slate-400   text-blue-500">Computational Intelligence in Signal & Image Processing</td>
+    </tr>
+  </tbody>
+</table>
+          </div>
+          <div className='mx-auto'>
+          <table class=" border-collapse border border-slate-500 ...">
+  <thead>
+    <tr>
+      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 3</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="border py-2 px-2 border-slate-400  text-blue-500">Computational Intelligence in Wireless Communcation Networks</td>
+    </tr>
+  </tbody>
+</table>
+          </div>
+          <div className='mx-auto'>
+          <table class=" border-collapse border border-slate-500 ...">
+  <thead>
+    <tr>
+      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 4</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="border py-2 px-2 border-slate-400   text-blue-500">Computational Methods in Biosignal Processing for Telemedicine</td>
+    </tr>
+  </tbody>
+</table>
+          </div>
+          <div className='mx-auto'>
+          <table class=" border-collapse border border-slate-500 ...">
+  <thead>
+    <tr>
+      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 5</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="border py-2 px-2 border-slate-400  text-blue-500">Computational Intelligence Applications</td>
+    </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+        
+    
+      </div>
+      </div>
             
           </div>
         </div>
@@ -47,8 +105,8 @@ const Call  = ()=>{
       <h2 className='h2 mb-4 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
       Track 1: COMPUTATIONAL INTELLIGENCE METHODOLOGIES
             </h2>
-        <div className='bg-gray-100 pl-20 py-4  grid grid-cols-2 gap-6 text-left'>
-          <div className=' '>
+        <div className='bg-gray-100 pl-20 py-4   grid md:grid-cols-2 grid-cols-1  gap-6 text-left'>
+          <div className='mx-auto'>
           <table class=" border-collapse border border-slate-500 ...">
   <thead>
     <tr>
@@ -74,7 +132,7 @@ const Call  = ()=>{
   </tbody>
 </table>
           </div>
-          <div className=''>
+          <div className='mx-auto'>
           <table class=" border-collapse border border-slate-500 ...">
   <thead>
     <tr>
@@ -110,8 +168,8 @@ const Call  = ()=>{
       <h2 className='h2 mb-4 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
       Track 2: COMPUTATIONAL INTELLIGENCE IN SIGNAL & IMAGE PROCESSING
             </h2>
-        <div className='bg-gray-100 pl-20 py-4   grid grid-cols-2 gap-6 text-left'>
-          <div className=''>
+        <div className='bg-gray-100 pl-20 py-4  grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
+          <div className='mx-auto'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
@@ -137,7 +195,7 @@ const Call  = ()=>{
   </tbody>
 </table>
 </div>
-          <div className=' '>
+          <div className=' mx-auto'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
@@ -174,8 +232,8 @@ const Call  = ()=>{
       <h2 className='h2 mb-4 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
       Track 3: COMPUTATIONAL INTELLIGENCE IN WIRELESS COMMUNICATION NETWORKS
             </h2>
-        <div className='bg-gray-100 pl-20 py-4   grid grid-cols-2 gap-6 text-left'>
-          <div className=''>
+        <div className='bg-gray-100 pl-20 py-4   grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
+          <div className='mx-auto'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
@@ -204,7 +262,7 @@ const Call  = ()=>{
   </tbody>
 </table>
 </div>
-          <div className=' '>
+          <div className='mx-auto'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
@@ -245,8 +303,8 @@ const Call  = ()=>{
       <h2 className='h2 mb-4 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
       Track 4: COMPUTATIONAL METHODS IN BIOSIGNAL PROCESSING FOR TELEMEDICINE
             </h2>
-        <div className='bg-gray-100 pl-20 py-4   grid grid-cols-2 gap-6 text-left'>
-          <div className=''>
+        <div className='bg-gray-100 pl-20 py-4   grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
+          <div className='mx-auto'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
@@ -275,7 +333,7 @@ const Call  = ()=>{
   </tbody>
 </table>
 </div>
-          <div className=' '>
+          <div className='mx-auto'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
@@ -303,6 +361,14 @@ const Call  = ()=>{
         </div>
       </div>
 
+      {/* Test */}
+
+      
+
+
+
+
+
       {/* Track 5 */}
 
       <div className="pb-6">
@@ -310,8 +376,8 @@ const Call  = ()=>{
       <h2 className='h2 mb-4 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
       Track 5: COMPUTATIONAL INTELLIGENCE APPLICATIONS
             </h2>
-        <div className='bg-gray-100 pl-20 py-4   grid grid-cols-2 gap-6 text-left'>
-          <div className=''>
+        <div className='bg-gray-100 pl-20 py-4   grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
+          <div className='mx-auto'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
@@ -328,7 +394,7 @@ const Call  = ()=>{
   </tbody>
 </table>
 </div>
-          <div className=' '>
+          <div className='mx-auto'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>

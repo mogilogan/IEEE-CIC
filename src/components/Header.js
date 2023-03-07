@@ -23,7 +23,7 @@ Pondicherry Engineering College, Puducherry , India</span></h1>
             </div>
           </div>
         </div>
-        <img className='max-w-md md:max-h-40 max-h-20' alt='ciclogo' src={logotrans}/>
+        <img className='max-w-md md:max-h-40 sm:max-h-20 max-h-12' alt='ciclogo' src={logotrans}/>
 
       
     </section >
