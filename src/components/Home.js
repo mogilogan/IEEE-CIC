@@ -10,7 +10,7 @@ import home1 from './assests/home1.jpg';
 const Home  = ()=>{
     return(
         <div className="pb-12">
-            <h1 className="text-xl pl-4">Home</h1>
+             <h1 className="text-xl py-6 pl-4">Home</h1>
 
             
 
@@ -33,17 +33,17 @@ const Home  = ()=>{
           <div className='flex-1 '>
            
             <p
-              className='px-12 pt-6  text-left mx-auto'
+              className=' pt-6 md:px-12  text-left mx-auto'
             >
    CIC 2023 aims to bring out the contemporary developments and evolving theories,methods and applications of computational intelligence in the design of Mobile and Wireless Communication networks. The main objective of CIC 2016 is to provide a lively forum for the scientific community and industry across the world to present their research findings, explore new directions in computational intelligence, probabilistic and statistical models to solve the ever growing challenges in Wireless Communication.
             </p>
             <p
-              className='px-12 pt-4 text-left mx-auto'
+              className='md:px-12 pt-4 text-left mx-auto'
             >
             CIC 2023 lays emphasis on computational intelligence techniques such as neural networks, fuzzy systems, evolutionary algorithms, hybrid intelligent systems, uncertain reasoning techniques, and other machine learning methods and how they could be applied for decision making and problem solving in mobile and wireless communication networks. The conference aims to provide an opportunity for researchers to highlight recent developments, share insightful experiences and interactions in the areas coming under the scope of the conference.
             </p>
             <p
-              className='px-12 pt-4  text-left mx-auto'
+              className='md:px-12 pt-4  text-left mx-auto'
             >
            CIC 2023 is organized by Department of Electronics & Communication Engineering, Pondicherry Engineering College, Puducherry on 19th and 20th , October 2016. The two day conference will include Plenary Talk, Key note Lectures, Paper Presentations and Poster Presentations.
 Authors are invited to contribute original research papers which can be submitted electronically via the submission Web site https://easychair.org/conferences/?conf=cic2016

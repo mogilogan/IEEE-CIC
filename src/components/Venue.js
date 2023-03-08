@@ -33,7 +33,7 @@ const Venue = ()=>{
           </div>
           <div className='flex-1 '>
             <p
-              className='px-12 pt-4  text-left mx-auto'
+              className='md:px-12 pt-4  text-left mx-auto'
             >
            Pondicherry ( or Puducherry), a French colonial settlement in India until 1954, is now a Union Territory town bounded by the south eastern Tamil Nadu state. It’s French legacy is preserved in it’s French quarter, with tree-lined streets, mustard coloured colonial villas and chic boutiques. The town offers a unique experience with its mix of modern heritage and spiritual culture. A sea side promenade runs along the Bay of Bengal and passes several statues, including a four metre high Gandhi memorial. Heritage is one the most precious gift, Puducherry has been offering to it’s tourists and visitors. The coastal town of Puducherry with the French ambience is known for the serene atmosphere. The Eglise de Notre Dame des Anges, Place De Gouvernement, French War Memorial, Sri Manakula Vinayakar Temple, Serinity beach, Chunnambar and Paradise Beach Boat house are some of the major tourist attractions in and around Puducherry. Sri Aurobindo Ashram and the nearby Auroville International Township lend unique spiritual flavour to the city.
             </p>
@@ -69,7 +69,7 @@ const Venue = ()=>{
           </div>
           <div className='flex-1 '>
             <p
-              className='px-12 pt-4  text-left mx-auto'
+              className='md:px-12 pt-4  text-left mx-auto'
             >
            Pondicherry Engineering College is an institution wholly funded by the Union Territory of Puducherry. The college was started in the year 1984 under the 7th five year plan. It is an autonomous institution for the purposes of administration, staff recruitment and college development and is managed by a Board of Governors. The college campus is situated on the East Coast road at Pillaichavady, which is about 12 kms from the railway station and bus stand in Puducherry town. The campus sprawling over 210 acres is of great scenic beauty and it presence an excellent setting for the pursuit of studies and research.
             </p>
@@ -102,7 +102,7 @@ const Venue = ()=>{
           </div>
           <div className='flex-1 '>
             <p
-              className='px-12 pt-4  text-left mx-auto'
+              className='md:px-12 pt-4  text-left mx-auto'
             >
           The Department of Electronics and Communication Engineering, since its inception in the year 1985, has been producing globally competitive engineering graduates. It is resourceful in terms of infrastructure and the state of the art facilities to pursue academic studies and research in niche areas of technology. The highly qualified and experienced faculties are one of the most significant features of the department. The department commenced to offer its first M.Tech degree program in the year 1990 and second M.Tech degree program on Wireless Communication technologies in the year 2006. Over the years, the department has matured into the QIP research centre producing Ph.D. Graduates in different specialisations of Electronics and Communication Engineering.
             </p>

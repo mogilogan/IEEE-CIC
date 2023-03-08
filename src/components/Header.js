@@ -16,9 +16,9 @@ const Header  = ()=>{
           <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
             <h1 class="mb-8 text-lg md:text-2xl text-center font-extrabold leading-none tracking-normal text-slate-800 md:text-3xl md:tracking-tight">
               <span className="dark:text-white">INTERNATIONAL CONFERENCE ON ADVANCES IN
-COMPUTATIONAL INTELLIGENCE IN COMMUNICATION</span>
+COMPUTATIONAL INTELLIGENCE AND COMMUNICATION</span>
             </h1>
-            <h1 className='my-10 text-center text-lg md:text-2xl font-black leading-none tracking-normal text-slate-800 md:text-xl md:tracking-tight'><span className="block w-full py-2 text-transparent bg-clip-text leading-12 bg-white lg:inline  ">CIC 2016
+            <h1 className='my-10 text-center text-lg md:text-2xl font-black leading-none tracking-normal text-slate-800 md:text-xl md:tracking-tight'><span className="block w-full py-2 text-transparent bg-clip-text leading-12 bg-white lg:inline  ">CIC 2023
 Pondicherry Engineering College, Puducherry , India</span></h1>
             
             <div class="mb-0 space-x-0 md:space-x-2 md:mb-8">
