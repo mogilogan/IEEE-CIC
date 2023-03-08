@@ -50,10 +50,10 @@ Authors are invited to contribute original research papers which can be submitte
             </p>
           </div>
         </div>
-        <div className="pb-6">
-        <div className='container max-w-[640px]  mx-auto bg-blue-200'>
+        <div className="py-6">
+        <div className='container max-w-[640px] lg:max-w-[860px]  mx-auto bg-blue-200'>
       <h2 className='h2 mb-10 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
-            SPONSERS
+            SPONSORS
             </h2>
         <div className='bg-white   flex flex-col text-left'>
           <div className='flex-1 '>

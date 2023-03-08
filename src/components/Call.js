@@ -21,15 +21,15 @@ const Call  = ()=>{
      
         <div className='bg-gray-100  py-4 mx-auto  grid sm:grid-cols-5 grid-cols-1  gap-0 text-left'>
           <div className='mx-auto'>
-          <table class=" border-collapse border border-slate-500">
+          <table class=" border-collapse table-fixed border border-slate-500">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Track 1</td>
+      <td class="border w-52  py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Track 1</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-blue-500">Computational Intelligence Methodologies</td>
+      <td class="border w-52 h-40 py-2 px-2 border-slate-400  text-blue-500">Computational Intelligence Methodologies</td>
     </tr>
   </tbody>
 </table>
@@ -38,12 +38,12 @@ const Call  = ()=>{
           <table class=" border-collapse border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 2</td>
+      <td class="border w-52  py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 2</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400   text-blue-500">Computational Intelligence in Signal & Image Processing</td>
+      <td class="border w-52 h-40 py-2 px-2 border-slate-400   text-blue-500">Computational Intelligence in Signal & Image Processing</td>
     </tr>
   </tbody>
 </table>
@@ -52,12 +52,12 @@ const Call  = ()=>{
           <table class=" border-collapse border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 3</td>
+      <td class="border w-52  py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 3</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-blue-500">Computational Intelligence in Wireless Communcation Networks</td>
+      <td class="border w-52 h-40 py-2 px-2 border-slate-400  text-blue-500">Computational Intelligence in Wireless Communcation Networks</td>
     </tr>
   </tbody>
 </table>
@@ -66,12 +66,12 @@ const Call  = ()=>{
           <table class=" border-collapse border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 4</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 4</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400   text-blue-500">Computational Methods in Biosignal Processing for Telemedicine</td>
+      <td class="border w-52 h-40 py-2 px-2 border-slate-400   text-blue-500">Computational Methods in Biosignal Processing for Telemedicine</td>
     </tr>
   </tbody>
 </table>
@@ -80,12 +80,12 @@ const Call  = ()=>{
           <table class=" border-collapse border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 5</td>
+      <td class="border w-52  py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">track 5</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-blue-500">Computational Intelligence Applications</td>
+      <td class="border w-52 h-40 py-2 px-2 border-slate-400  text-blue-500">Computational Intelligence Applications</td>
     </tr>
   </tbody>
 </table>
@@ -105,52 +105,52 @@ const Call  = ()=>{
       <h2 className='h2 mb-4 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
       Track 1: COMPUTATIONAL INTELLIGENCE METHODOLOGIES
             </h2>
-        <div className='bg-gray-100 pl-20 py-4   grid md:grid-cols-2 grid-cols-1  gap-6 text-left'>
-          <div className='mx-auto'>
+        <div className='bg-gray-100  py-4   grid md:grid-cols-2 grid-cols-1  gap-6 text-left'>
+          <div className='mx-auto lg:mr-4'>
           <table class=" border-collapse border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Artificial Neural Networks</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Artificial Neural Networks</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Bio inspired algorithms</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Bio inspired algorithms</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Classification and Clustering</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Classification and Clustering</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Data Mining</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Data Mining</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Decision support systems</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Decision support systems</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Hybrid Intelligent Systems</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Hybrid Intelligent Systems</td>
     </tr>
   </tbody>
 </table>
           </div>
-          <div className='mx-auto'>
+          <div className='mx-auto lg:ml-4'>
           <table class=" border-collapse border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Fuzzy systems</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Fuzzy systems</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Evolutionary Algorithms</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Evolutionary Algorithms</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Knowledge based networks</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Knowledge based networks</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Optimization techniques</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Optimization techniques</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Pattern recognition and Machine Learning</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  bg-blue-100 text-blue-500">Pattern recognition and Machine Learning</td>
     </tr>
 
   </tbody>
@@ -168,55 +168,55 @@ const Call  = ()=>{
       <h2 className='h2 mb-4 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
       Track 2: COMPUTATIONAL INTELLIGENCE IN SIGNAL & IMAGE PROCESSING
             </h2>
-        <div className='bg-gray-100 pl-20 py-4  grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
-          <div className='mx-auto'>
+        <div className='bg-gray-100  py-4  grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
+          <div className='mx-auto lg:mr-4'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational intelligence methods for the three-dimensional modelling</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational intelligence methods for the three-dimensional modelling</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational methods for image filtering, enhancement and segmentation</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational methods for image filtering, enhancement and segmentation</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational methods for signal recovery</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational methods for signal recovery</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational methods for speech recognition</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational methods for speech recognition</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Dynamic information acquisition and extraction from imaging sensors</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Dynamic information acquisition and extraction from imaging sensors</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Learning algorithms for adaptive signal processing</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Learning algorithms for adaptive signal processing</td>
     </tr>
   </tbody>
 </table>
 </div>
-          <div className=' mx-auto'>
+          <div className=' mx-auto lg:ml-4'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Machine vision</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Machine vision</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Model-based data inversion</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Model-based data inversion</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Software and hardware implementation of efficient computations in imaging systems</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Software and hardware implementation of efficient computations in imaging systems</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Sparse data processing</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Sparse data processing</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Statistical signal processing</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Statistical signal processing</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Unconventional sensing of image data</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Unconventional sensing of image data</td>
     </tr>
 
   </tbody>
@@ -232,61 +232,61 @@ const Call  = ()=>{
       <h2 className='h2 mb-4 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
       Track 3: COMPUTATIONAL INTELLIGENCE IN WIRELESS COMMUNICATION NETWORKS
             </h2>
-        <div className='bg-gray-100 pl-20 py-4   grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
-          <div className='mx-auto'>
+        <div className='bg-gray-100  py-4   grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
+          <div className='mx-auto lg:mr-4'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Ad Hoc networks optimization issues</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Ad Hoc networks optimization issues</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Cognitive Wireless Sensor Networks</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Cognitive Wireless Sensor Networks</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational Intelligence and Energy efficient Protocols in WSN</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational Intelligence and Energy efficient Protocols in WSN</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational Intelligence and Routing in WSN</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational Intelligence and Routing in WSN</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Distributed and Parallel Algorithms for Smart WSN</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Distributed and Parallel Algorithms for Smart WSN</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Learning Patterns from Sensor Sources</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Learning Patterns from Sensor Sources</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Statistical models</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Statistical models</td>
     </tr>
   </tbody>
 </table>
 </div>
-          <div className='mx-auto'>
+          <div className='mx-auto lg:ml-4'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Mobile Computing</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Mobile Computing</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Mobility Models</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Mobility Models</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Optimization techniques in Telecommunication</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Optimization techniques in Telecommunication</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Optimized design of Wireless Networks</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Optimized design of Wireless Networks</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Pervasive computing</td>
+      <td class="border w-52 py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Pervasive computing</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Prediction systems</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Prediction systems</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Wireless Communication System Modeling</td>
+      <td class="border w-52 py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Wireless Communication System Modeling</td>
     </tr>
 
   </tbody>
@@ -303,55 +303,55 @@ const Call  = ()=>{
       <h2 className='h2 mb-4 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
       Track 4: COMPUTATIONAL METHODS IN BIOSIGNAL PROCESSING FOR TELEMEDICINE
             </h2>
-        <div className='bg-gray-100 pl-20 py-4   grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
-          <div className='mx-auto'>
+        <div className='bg-gray-100  py-4   grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
+          <div className='mx-auto lg:mr-4'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational methods in Cardiovascular and respiratory mechanics</td>
+      <td class="border py-2 w-52 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational methods in Cardiovascular and respiratory mechanics</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational intelligence in medical image analysis</td>
+      <td class="border py-2 w-52  px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Computational intelligence in medical image analysis</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">EEG and EMG signal processing</td>
+      <td class="border py-2 w-52 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">EEG and EMG signal processing</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Health care model design</td>
+      <td class="border py-2 w-52 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Health care model design</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Intelligent Medical device design</td>
+      <td class="border py-2 w-52 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Intelligent Medical device design</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Medical imaging (MRI, Ultrasound, Ophthalmological imaging, Neuro imaging, etc)</td>
+      <td class="border py-2 w-52 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Medical imaging (MRI, Ultrasound, Ophthalmological imaging, Neuro imaging, etc)</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Statistical models</td>
+      <td class="border py-2 w-52 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Statistical models</td>
     </tr>
   </tbody>
 </table>
 </div>
-          <div className='mx-auto'>
+          <div className='mx-auto lg:ml-4'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Numerical modelling of organs</td>
+      <td class="border py-2 w-52 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Numerical modelling of organs</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Patient-specific modelling</td>
+      <td class="border py-2 w-52 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Patient-specific modelling</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Surgical simulation</td>
+      <td class="border py-2 w-52 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Surgical simulation</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">AI in Tumour modelling</td>
+      <td class="border py-2 w-52 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">AI in Tumour modelling</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Telemedicine</td>
+      <td class="border py-2 w-52 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Telemedicine</td>
     </tr>
 
   </tbody>
@@ -376,37 +376,37 @@ const Call  = ()=>{
       <h2 className='h2 mb-4 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
       Track 5: COMPUTATIONAL INTELLIGENCE APPLICATIONS
             </h2>
-        <div className='bg-gray-100 pl-20 py-4   grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
-          <div className='mx-auto'>
+        <div className='bg-gray-100 py-4     grid md:grid-cols-2 grid-cols-1  text-left'>
+          <div className='mx-auto lg:mr-4'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">AI system design</td>
+      <td class="border py-2 w-52 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">AI system design</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Robotics and Automation</td>
+      <td class="border py-2 w-52 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Robotics and Automation</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Human machine interaction</td>
+      <td class="border py-2 w-52 px-2 border-slate-400 text-sm  bg-blue-100 text-blue-500">Human machine interaction</td>
     </tr>
   </tbody>
 </table>
 </div>
-          <div className='mx-auto'>
+          <div className='mx-auto lg:ml-4'>
           <table class=" border-collapse max-w-[250px] border border-slate-500 ...">
   <thead>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Intelligent information retrieval</td>
+      <td class="border py-2 w-52 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Intelligent information retrieval</td>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Natural language processing</td>
+      <td class="border py-2 w-52 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">Natural language processing</td>
     </tr>
     <tr>
-      <td class="border py-2 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">VLSI design of intelligent systems</td>
+      <td class="border py-2 w-52 px-2 border-slate-400  text-sm bg-blue-100 text-blue-500">VLSI design of intelligent systems</td>
     </tr>
   </tbody>
 </table>

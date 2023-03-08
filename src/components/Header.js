@@ -7,8 +7,11 @@ const Header  = ()=>{
     
   return (
     <div>
-    <section class="bg-[url('/src/components/assests/headerbg.jpg')] flex space-x-4">
-      <img className='max-w-lg max-h-20 md:max-h-40' alt='logo' src={ptulogo}/>
+    <section class="bg-[url('/src/components/assests/headerbg.jpg')]   sm:flex space-x-4">
+      <img className='max-w-lg max-h-28 md:max-h-40  mx-auto' alt='logo' src={ptulogo}/>
+      <div className='mx-auto py-4'>
+      <img className='max-h-20 mx-auto   sm:hidden block ' alt='ciclogo' src={logotrans}/>
+      </div>
         <div class=" px-12 mx-auto max-w-7xl">
           <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
             <h1 class="mb-8 text-lg md:text-2xl text-center font-extrabold leading-none tracking-normal text-slate-800 md:text-3xl md:tracking-tight">
@@ -23,7 +26,7 @@ Pondicherry Engineering College, Puducherry , India</span></h1>
             </div>
           </div>
         </div>
-        <img className='max-w-md md:max-h-40 sm:max-h-20 max-h-12' alt='ciclogo' src={logotrans}/>
+        <img className='max-w-md md:max-h-40 hidden sm:block sm:max-h-20 max-h-12' alt='ciclogo' src={logotrans}/>
 
       
     </section >
