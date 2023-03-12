@@ -431,7 +431,7 @@ const Call  = ()=>{
             </h2>
             <div className="bg-gray-100">
             <ul class="list-disc mx-auto text-left px-12">
-  <li><p className='text-left pb-5 mx-auto'>The CIC 2016 conference plans to include only quality papers with significant contributions. All submissions will be screened for plagiarism and all submitted papers will undergo a peer review process, coordinated by the Program Committee. Each manuscript will be reviewed by a minimum of three reviewers. The accepted and registered regular papers is to be published in the conference proceedings published by reputed publishers.</p>
+  <li><p className='text-left pb-5 mx-auto'>The CIC 2023 conference plans to include only quality papers with significant contributions. All submissions will be screened for plagiarism and all submitted papers will undergo a peer review process, coordinated by the Program Committee. Each manuscript will be reviewed by a minimum of three reviewers. The accepted and registered regular papers is to be published in the conference proceedings published by reputed publishers.</p>
   </li>
   <li><p className='text-left py-5 mx-auto'>Best papers will be duly awarded.</p></li>
   <li><p className='text-left py-5 mx-auto'>Extended works of authors of the best papers will be recommended for publication in Indexed Journals</p></li>

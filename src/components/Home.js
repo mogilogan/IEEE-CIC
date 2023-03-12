@@ -20,8 +20,8 @@ const Home  = ()=>{
 
     >
       <div className='container mx-auto bg-gray-100'>
-      <marquee className="py-5"><span className="text-xl  text-yellow-600"> Accepted and Registered papers of CIC 2016 will be published in ESCI-IP&Sc Thomson Reuters-Web of Science, Scopus & Anna Univ-Annex-II International Journals. Substantially Extended Versions of High Quality Papers will be considered for publication in Special Issue of Int. J. of Advanced Intelligence Paradigms, Inderscience, AEU Int.J of E&C, Elsevier* and Int.J. of Ambient Computing & Intelligence, IGI-Global. See Publications for more details.
-            </span></marquee>
+      {/* <marquee className="py-5"><span className="text-xl  text-yellow-600"> Accepted and Registered papers of CIC 2016 will be published in ESCI-IP&Sc Thomson Reuters-Web of Science, Scopus & Anna Univ-Annex-II International Journals. Substantially Extended Versions of High Quality Papers will be considered for publication in Special Issue of Int. J. of Advanced Intelligence Paradigms, Inderscience, AEU Int.J of E&C, Elsevier* and Int.J. of Ambient Computing & Intelligence, IGI-Global. See Publications for more details.
+            </span></marquee> */}
            
 
       <h1 className="text-3xl pl-4 font-bold text-blue-700 text-left py-4">CIC 2023</h1>
@@ -35,7 +35,7 @@ const Home  = ()=>{
             <p
               className=' pt-6 md:px-12  text-left mx-auto'
             >
-   CIC 2023 aims to bring out the contemporary developments and evolving theories,methods and applications of computational intelligence in the design of Mobile and Wireless Communication networks. The main objective of CIC 2016 is to provide a lively forum for the scientific community and industry across the world to present their research findings, explore new directions in computational intelligence, probabilistic and statistical models to solve the ever growing challenges in Wireless Communication.
+   CIC 2023 aims to bring out the contemporary developments and evolving theories,methods and applications of computational intelligence in the design of Mobile and Wireless Communication networks. The main objective of CIC 2023 is to provide a lively forum for the scientific community and industry across the world to present their research findings, explore new directions in computational intelligence, probabilistic and statistical models to solve the ever growing challenges in Wireless Communication.
             </p>
             <p
               className='md:px-12 pt-4 text-left mx-auto'
@@ -45,8 +45,8 @@ const Home  = ()=>{
             <p
               className='md:px-12 pt-4  text-left mx-auto'
             >
-           CIC 2023 is organized by Department of Electronics & Communication Engineering, Pondicherry Engineering College, Puducherry on 19th and 20th , October 2016. The two day conference will include Plenary Talk, Key note Lectures, Paper Presentations and Poster Presentations.
-Authors are invited to contribute original research papers which can be submitted electronically via the submission Web site https://easychair.org/conferences/?conf=cic2016
+           CIC 2023 is organized by Department of Electronics & Communication Engineering, Pondicherry Engineering College, Puducherry on 7th and 8th , December 2023. The two day conference will include Plenary Talk, Key note Lectures, Paper Presentations and Poster Presentations.
+Authors are invited to contribute original research papers which can be submitted electronically via the submission Web site <a className="text-blue-400 hover:underline" href="https://easychair.org/conferences/?conf=cic2023">https://easychair.org/conferences/?conf=cic2023</a>
             </p>
           </div>
         </div>
