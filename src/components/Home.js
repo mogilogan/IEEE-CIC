@@ -46,6 +46,10 @@ const Home  = ()=>{
                     <p className="legend">Legend 3</p>
                 </div>
                 <div>
+                    <img src={home4}/>
+                    <p className="legend">Legend 4</p>
+                </div>
+                <div>
                     <img src={home5}/>
                     <p className="legend">Legend 4</p>
                 </div>
