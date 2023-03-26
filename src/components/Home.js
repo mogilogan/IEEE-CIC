@@ -1,10 +1,13 @@
 import React from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import home1 from './assests/home1.jpg';
-// import home2 from './assests/home2.jpg';
-// import home3 from './assests/home3.jpg';
-// import home4 from './assests/home4.jpg';
-// import home5 from './assests/home5.jpg';
+
+import home1 from './assests/Home1.avif';
+import home2 from './assests/home2.jpg';
+import home3 from './assests/Home3.webp';
+import home4 from './assests/home4.jpg';
+import home5 from './assests/home5.jpg';
+var Carousel = require('react-responsive-carousel').Carousel;
 
 
 const Home  = ()=>{
@@ -28,7 +31,32 @@ const Home  = ()=>{
         <div className='bg-gray-100    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0    '>
            
         <div className='flex-1' data-aos='zoom-in-left'>
-            <img className="border-white" src={home1} alt='' />
+            {/* <img className="border-white" src={home1} alt='' /> */}
+            <Carousel className="max-w-lg" autoPlay  infiniteLoop showArrows={false} showStatus={false} showThumbs={false} interval={1500} dynamicHeight={false} showIndicators={false}>
+                <div>
+                    <img src={home1} />
+                    <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                    <img src={home2} />
+                    <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                    <img src={home3}/>
+                    <p className="legend">Legend 3</p>
+                </div>
+                <div>
+                    <img src={home5}/>
+                    <p className="legend">Legend 4</p>
+                </div>
+
+            </Carousel>
+
+          
+
+            
+
+
           </div>
           <div className='flex-1 '>
            
