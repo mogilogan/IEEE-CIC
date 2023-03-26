@@ -32,7 +32,7 @@ const Home  = ()=>{
            
         <div className='flex-1' data-aos='zoom-in-left'>
             {/* <img className="border-white" src={home1} alt='' /> */}
-            <Carousel className="max-w-lg" autoPlay  infiniteLoop showArrows={false} showStatus={false} showThumbs={false} interval={1500} dynamicHeight={false} showIndicators={false}>
+            <Carousel className="max-w-lg" stopOnHover autoPlay  infiniteLoop showArrows={false} showStatus={false} showThumbs={false} interval={1500} dynamicHeight={false} showIndicators={false}>
                 <div>
                     <img src={home1} />
                     <p className="legend">Legend 1</p>
