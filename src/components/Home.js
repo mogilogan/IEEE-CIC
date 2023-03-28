@@ -35,23 +35,23 @@ const Home  = ()=>{
             <Carousel className="max-w-lg" stopOnHover autoPlay  infiniteLoop showArrows={false} showStatus={false} showThumbs={false} interval={1500} dynamicHeight={false} showIndicators={false}>
                 <div>
                     <img src={home1} />
-                    <p className="legend">Legend 1</p>
+                    
                 </div>
                 <div>
                     <img src={home2} />
-                    <p className="legend">Legend 2</p>
+                    
                 </div>
                 <div>
                     <img src={home3}/>
-                    <p className="legend">Legend 3</p>
+                    
                 </div>
                 <div>
                     <img src={home4}/>
-                    <p className="legend">Legend 4</p>
+                   
                 </div>
                 <div>
                     <img src={home5}/>
-                    <p className="legend">Legend 4</p>
+                   
                 </div>
 
             </Carousel>
