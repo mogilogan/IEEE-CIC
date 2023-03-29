@@ -12,17 +12,19 @@ var Carousel = require('react-responsive-carousel').Carousel;
 
 const Home  = ()=>{
     return(
-        <div className="pb-12">
-             <h1 className="text-xl py-6 pl-4">Home</h1>
+      <div>
+        <h1 className="text-xl py-6 pl-4">Home </h1>
+        <div className="pb-12 bg-[url('../public/homebg.jpg')]" >
+             
 
             
 
     <section
-      className='my-[5px] '
+      className='my-[5px] pt-10'
       id="#About"
 
     >
-      <div className='container mx-auto bg-gray-100'>
+      <div className='container  mx-auto bg-gray-100'>
       {/* <marquee className="py-5"><span className="text-xl  text-yellow-600"> Accepted and Registered papers of CIC 2016 will be published in ESCI-IP&Sc Thomson Reuters-Web of Science, Scopus & Anna Univ-Annex-II International Journals. Substantially Extended Versions of High Quality Papers will be considered for publication in Special Issue of Int. J. of Advanced Intelligence Paradigms, Inderscience, AEU Int.J of E&C, Elsevier* and Int.J. of Ambient Computing & Intelligence, IGI-Global. See Publications for more details.
             </span></marquee> */}
            
@@ -107,6 +109,7 @@ Authors are invited to contribute original research papers which can be submitte
     </section>
     
 
+        </div>
         </div>
     )
 }
