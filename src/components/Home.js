@@ -14,7 +14,7 @@ const Home  = ()=>{
     return(
       <div>
         <h1 className="text-xl py-6 pl-4">Home </h1>
-        <div className="pb-12 bg-[url('../public/homebg.jpg')]" >
+        <div className="pb-12 bg-[url('../public/homebg.jpg')] bg-left" >
              
 
             
@@ -69,18 +69,27 @@ const Home  = ()=>{
             <p
               className=' pt-6 md:px-12  text-left mx-auto'
             >
-   CIC 2023 aims to bring out the contemporary developments and evolving theories,methods and applications of computational intelligence in the design of Mobile and Wireless Communication networks. The main objective of CIC 2023 is to provide a lively forum for the scientific community and industry across the world to present their research findings, explore new directions in computational intelligence, probabilistic and statistical models to solve the ever growing challenges in Wireless Communication.
+   CIC 2023 is organized by Department of Electronics & Communication Engineering, Puducherry Technological University, Puducherry, India on 7th and 8th , December  2023. The two day conference will include Plenary Talk, Key note Lectures, Paper Presentations and Poster Presentations.
             </p>
             <p
               className='md:px-12 pt-4 text-left mx-auto'
             >
-            CIC 2023 lays emphasis on computational intelligence techniques such as neural networks, fuzzy systems, evolutionary algorithms, hybrid intelligent systems, uncertain reasoning techniques, and other machine learning methods and how they could be applied for decision making and problem solving in mobile and wireless communication networks. The conference aims to provide an opportunity for researchers to highlight recent developments, share insightful experiences and interactions in the areas coming under the scope of the conference.
+           CIC 2023 aims to bring out the contemporary developments and evolving theories, methods and applications of computational intelligence in diverse fields. CIC 2023 will provide a platform  for the scientific community and industry across the world to present their research findings, explore new directions in computational intelligence, probabilistic and statistical models to solve the ever growing challenges in the society.
             </p>
             <p
               className='md:px-12 pt-4  text-left mx-auto'
             >
-           CIC 2023 is organized by Department of Electronics & Communication Engineering, Pondicherry Engineering College, Puducherry on 7th and 8th , December 2023. The two day conference will include Plenary Talk, Key note Lectures, Paper Presentations and Poster Presentations.
-Authors are invited to contribute original research papers which can be submitted electronically via the submission Web site <a className="text-blue-400 hover:underline" href="https://easychair.org/conferences/?conf=cic2023">https://easychair.org/conferences/?conf=cic2023</a>
+           CIC 2023 lays emphasis on computational intelligence techniques such as neural networks, fuzzy systems, evolutionary algorithms, hybrid intelligent systems, uncertain reasoning techniques, and other machine learning methods and how they could be applied for decision making and problem solving in various disciplines namely, wireless communication and networks, intelligent  healthcare systems , intelligent transport systems, robotics and automation, precision agriculture, information security systems, environmental monitoring, education and entertainment.
+            </p>
+            <p
+              className='md:px-12 pt-4  text-left mx-auto'
+            >
+CIC 2023 is to be conducted in HYBRID mode (Physical and Online).
+Authors of the accepted papers who are unable to attend the conference in person can present their papers online and attend an interactive virtual conference.
+            </p>
+            <p
+              className='md:px-12 pt-4  text-left mx-auto'
+            >Authors are invited to contribute original research papers for electronic submission  via the Microsoft CMT link ( will be provided shortly).
             </p>
           </div>
         </div>

@@ -50,39 +50,32 @@ const Registrations  = ()=>{
   </tr>
   <tr>
     <td className="border border-slate-700">Faculty Members</td>
-    <td className="border border-slate-700">$200</td>
-    <td className="border border-slate-700">$250</td>
-    <td className="border border-slate-700">$250</td>
-    <td className="border border-slate-700">$300</td>
-  </tr>
-  <tr>
-    <td className="border border-slate-700">Research Scholars</td>
+    <td className="border border-slate-700">$120</td>
+    <td className="border border-slate-700">$140</td>
+    <td className="border border-slate-700">$130</td>
     <td className="border border-slate-700">$150</td>
-    <td className="border border-slate-700">$200</td>
-    <td className="border border-slate-700">$200</td>
-    <td className="border border-slate-700">$250</td>
   </tr>
   <tr>
-    <td className="border border-slate-700">Student Authors ( UG & PG )</td>
+    <td className="border border-slate-700">Research Scholars,Student Authors(UG & PG)</td>
     <td className="border border-slate-700">$100</td>
-    <td className="border border-slate-700">$150</td>
-    <td className="border border-slate-700">$150</td>
-    <td className="border border-slate-700">$200</td>
+    <td className="border border-slate-700">$120</td>
+    <td className="border border-slate-700">$110</td>
+    <td className="border border-slate-700">$130</td>
   </tr>
   <tr>
     <td className="border border-slate-700">Listeners</td>
-    <td className="border border-slate-700">$50</td>
-    <td className="border border-slate-700">$50</td>
-    <td className="border border-slate-700">$50</td>
-    <td className="border border-slate-700">$100</td>
+    <td className="border border-slate-700">$20</td>
+    <td className="border border-slate-700">$20</td>
+    <td className="border border-slate-700">$20</td>
+    <td className="border border-slate-700">$20</td>
   </tr>
 </table>
     </div>
     </div>
     </div>
     </div>
-<h1 className="mx-4 "><b>* Early Bird Payments must be made before 05.09.2016</b></h1>
-<h1 className="mx-4 "><b> Late payments must be made before 10.09.2016</b></h1>
+<h1 className="mx-4 "><b>* Early Bird Payments must be made before __.__.2023</b></h1>
+<h1 className="mx-4 "><b> Late payments must be made before __.__.2023</b></h1>
 <h1 className="text-center mx-auto pt-4"><b>AUTHOR PARTICIPANT FEES FOR INDIAN AUTHORS</b></h1>
 
 
@@ -106,37 +99,30 @@ const Registrations  = ()=>{
   </tr>
   <tr>
     <td className="border border-slate-700">Industry Participants</td>
-    <td className="border border-slate-700">&#8377;4000</td>
-    <td className="border border-slate-700">&#8377;4500</td>
-    <td className="border border-slate-700">&#8377;4500</td>
-    <td className="border border-slate-700">&#8377;5000</td>
+    <td className="border border-slate-700">&#8377;9000</td>
+    <td className="border border-slate-700">&#8377;10,00</td>
+    <td className="border border-slate-700">&#8377;9500</td>
+    <td className="border border-slate-700">&#8377;10,000</td>
   </tr>
   <tr>
     <td className="border border-slate-700">Faculty Members</td>
-    <td className="border border-slate-700">&#8377;4000</td>
-    <td className="border border-slate-700">&#8377;4500</td>
+    <td className="border border-slate-700">&#8377;5500</td>
+    <td className="border border-slate-700">&#8377;6000</td>
+    <td className="border border-slate-700">&#8377;6500</td>
+    <td className="border border-slate-700">&#8377;7000</td>
+  </tr>
+  <tr>
+    <td className="border border-slate-700">Research Scholars, Student Authors(UG & PG)</td>
     <td className="border border-slate-700">&#8377;4500</td>
     <td className="border border-slate-700">&#8377;5000</td>
-  </tr>
-  <tr>
-    <td className="border border-slate-700">Research Scholars & PG</td>
-    <td className="border border-slate-700">&#8377;3500</td>
-    <td className="border border-slate-700">&#8377;4000</td>
-    <td className="border border-slate-700">&#8377;4000</td>
-    <td className="border border-slate-700">&#8377;4500</td>
-  </tr>
-  <tr>
-    <td className="border border-slate-700">UG Student Authors</td>
-    <td className="border border-slate-700">&#8377;3000</td>
-    <td className="border border-slate-700">&#8377;3500</td>
-    <td className="border border-slate-700">&#8377;3000</td>
-    <td className="border border-slate-700">&#8377;3500</td>
+    <td className="border border-slate-700">&#8377;5500</td>
+    <td className="border border-slate-700">&#8377;6000</td>
   </tr>
   <tr>
     <td className="border border-slate-700">Listeners</td>
-    <td className="border border-slate-700">&#8377;1000</td>
-    <td className="border border-slate-700">&#8377;1000</td>
-    <td className="border border-slate-700">&#8377;1000</td>
+    <td className="border border-slate-700">&#8377;1500</td>
+    <td className="border border-slate-700">&#8377;1500</td>
+    <td className="border border-slate-700">&#8377;1500</td>
     <td className="border border-slate-700">&#8377;1500</td>
   </tr>
 </table>
