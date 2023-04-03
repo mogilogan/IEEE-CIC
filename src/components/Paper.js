@@ -4,6 +4,7 @@ const Paper  = ()=>{
     return(
         <div className="pb-12">
             <h1 className="text-xl py-6 pl-4">Home / Paper Submissions</h1>
+            <div className="bg-[url('../public/try1.gif')]   ">
 
             <section
       className='my-[5px] '
@@ -67,6 +68,7 @@ const Paper  = ()=>{
         </div>
       </div>
     </section>
+    </div>
         </div>
     )
 }
