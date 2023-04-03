@@ -9,7 +9,7 @@ const Call  = ()=>{
     return(
         <div>
              <h1 className="text-xl py-6 pl-4">Home / Call For Papers</h1>
-
+<div className="bg-[url('../public/techcir.gif')]   ">
             <section
       className='my-[5px]'
       id="#About"
@@ -487,6 +487,7 @@ const Call  = ()=>{
    
 
     </section>
+    </div>
         </div>
     )
 }
