@@ -11,9 +11,9 @@ const Contact  = ()=>{
 
     >
       <div className='container mx-auto'>
-        <div className='bg-gray-100    pb-12 flex flex-col    '>
+        <div className=' bg-gradient-to-br rounded-xl  from-red-300 to-purple-200    pb-12 flex flex-col    '>
             <div className="">
-          <div className='flex-1 bg-blue-200 '>
+          <div className='flex-1 rounded-tr-xl rounded-tl-xl bg-blue-200 '>
             <h2 className='h2 mb-10 px-4 pb-4 pt-2 font font-black text-blue-800 text-md' >
             ADDRESS FOR COMMUNICATION
             </h2>

@@ -17,8 +17,8 @@ module.exports = {
         'light-inner-neumorphism-l': 'inset -2px -2px 4px rgba(255, 255, 255, 1), inset 2px 2px 4px rgba(200, 207, 216, 0.9)',
         'light-inner-neumorphism-xl': 'inset -4px -4px 8px rgba(255, 255, 255, 1), inset 4px 4px 8px rgba(200, 207, 216, 0.9)',
         'dark-neumorphism-2xl': '-12px -12px 24px rgba(46, 46, 46, 0.8), 12px 12px 24px rgba(11, 15, 26, 0.9)',
-        'dark-neumorphism-xl': '-9px -9px 18px rgba(46, 46, 46, 0.8), 9px 9px 18px rgba(11, 15, 26, 0.9)',
-        'dark-neumorphism-l': '-4px -4px 8px rgba(46, 46, 46, 0.8), 4px 4px 8px rgba(11, 15, 26, 0.9)',
+        'dark-neumorphism-xl': '-9px -9px 18px rgba(46, 46, 46, 0.4), 9px 9px 18px rgba(12, 15, 26, 0.6)',
+        'dark-neumorphism-l': '-4px -4px 8px rgba(46, 46, 46, 0.4), 4px 4px 8px rgba(11, 15, 26, 0.6)',
         'dark-inner-neumorphism-l': 'inset -2px -2px 4px rgba(46, 46, 46, 0.8), inset 2px 2px 4px rgba(11, 15, 26, 0.9)',
         'dark-inner-neumorphism-xl': 'inset -4px -4px 8px rgba(46, 46, 46, 0.8), inset 4px 4px 8px rgba(11, 15, 26, 0.9)',
         
