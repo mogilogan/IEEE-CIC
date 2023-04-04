@@ -18,12 +18,12 @@ const Timelines  = ()=>{
             Important Dates
             </h2>
             </div>
-            <div className="pb-6 bg-gradient-to-br from-red-500 to-purple-500">
-        <div className='container   mx-auto '>
+            <div className=" pb-6 bg-[url('../public/try5.gif')] bg-cover bg-fixed ">
+        <div className='container    mx-auto '>
      
         <div className='  py-4 mx-auto   gap-0 text-left'>
           <div className='mx-auto'>
-          <table class="mx-auto table-auto border-collapse border border-slate-900">
+          <table class="mx-auto bg-gradient-to-br from-red-500 to-purple-500 table-auto border-collapse border border-slate-900">
   <thead>
     <tr className="hover:bg-red-200 " >
       <th class="border py-2 px-2 border-slate-400   ">Submission of Full Paper</th>

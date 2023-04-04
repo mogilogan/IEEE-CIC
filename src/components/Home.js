@@ -14,7 +14,7 @@ const Home  = ()=>{
     return(
       <div>
         <h1 className="text-xl py-6 pl-4">Home </h1>
-        <div className="pb-12 bg-[url('../public/matrix.gif')] " >
+        <div className="pb-12 bg-[url('../public/matrix.gif')]  bg-fixed " >
              
 
             
@@ -24,7 +24,7 @@ const Home  = ()=>{
       id="#About"
 
     >
-      <div className='container rounded-3xl  mx-auto bg-gradient-to-br from-blue-900 via-red-400 to-teal-300'>
+      <div className='container rounded-3xl  mx-auto bg-gradient-to-br from-blue-900  to-blue-400'>
       {/* <marquee className="py-5"><span className="text-xl  text-yellow-600"> Accepted and Registered papers of CIC 2016 will be published in ESCI-IP&Sc Thomson Reuters-Web of Science, Scopus & Anna Univ-Annex-II International Journals. Substantially Extended Versions of High Quality Papers will be considered for publication in Special Issue of Int. J. of Advanced Intelligence Paradigms, Inderscience, AEU Int.J of E&C, Elsevier* and Int.J. of Ambient Computing & Intelligence, IGI-Global. See Publications for more details.
             </span></marquee> */}
            
@@ -97,8 +97,8 @@ Authors of the accepted papers who are unable to attend the conference in person
       </div>
 
       <div className="py-6 ">
-        <div className='container bg-gradient-to-tr from-teal-600 via-orange-200 to-blue-600 rounded-xl   mx-auto '>
-      <h2 className='h2 mb-5 text-left px-4 pt-2 font font-black text-blue-800 text-xl' >
+        <div className='container bg-gradient-to-tr from-blue-900  to-blue-400 rounded-xl   mx-auto '>
+      <h2 className='h2 mb-5 text-left px-4 pt-2 font font-black text-yellow-400 text-xl' >
             SPONSORS
             </h2>
         <div className=' rounded-bl-xl rounded-br-xl  flex flex-col text-left'>
@@ -106,7 +106,7 @@ Authors of the accepted papers who are unable to attend the conference in person
           
             
             <p
-              className='px-6 py-6 text-left mx-auto'
+              className='px-6 py-6 text-gray-200 text-left mx-auto'
             >
          CIC 2023 is funded by the Technical Education Quality Improvement Programme (TEQIP) Phase-II . TEQIP is a project of the National Project Implementation Unit (NPIU) , of Ministry of Human Resource Development of the Govt. of India for implementation of World Bank Assisted Projects in Technical Education with an objective of strengthening institutions in the country and scaling-up postgraduate education and demand-driven Research & Development and Innovation.
             </p>

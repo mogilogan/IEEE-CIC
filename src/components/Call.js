@@ -9,9 +9,9 @@ const Call  = ()=>{
     return(
         <div>
              <h1 className="text-xl py-6 pl-4">Home / Call For Papers</h1>
-<div className="bg-[url('../public/techcir.gif')]   ">
+<div className="bg-[url('../public/techcir.gif')] bg-cover bg-fixed  ">
             <section
-      className='my-[5px]'
+      className='my-[5px] pt-12'
       id="#About"
 
     >
