@@ -16,9 +16,9 @@ const Call  = ()=>{
 
     >
       <div className='container mx-auto '>
-        <div className=' pb-12 flex flex-col shadow-dark-neumorphism-xl rounded-xl   bg-gradient-to-br from-green-800 to-green-500 '>
+        <div className=' pb-12 flex flex-col shadow-dark-neumorphism-xl rounded-xl   bg-emerald-500 '>
           <div className='flex-1 '>
-            <h2 className='h2 bg-purple-700 rounded-tl-xl rounded-tr-xl mb-10 px-4 py-2 font font-black text-gray-300 text-xl' >
+            <h2 className='h2 bg-emerald-900 rounded-tl-xl rounded-tr-xl mb-10 px-4 py-2 font font-black text-gray-300 text-xl' >
             CONFERENCE TRACKS
             </h2>
             <div className="pb-6 ">
@@ -29,12 +29,12 @@ const Call  = ()=>{
           <table class=" border-collapse rounded-xl  shadow-dark-neumorphism-l     table-fixed  border-slate-500">
   <thead>
     <tr >
-      <td class="  w-52 rounded-tl-xl  rounded-tr-xl   py-2 px-2 border-slate-500  bg-red-700 text-gray-200">Track 1</td>
+      <td class="  w-52 rounded-tl-xl  rounded-tr-xl   py-2 px-2 border-slate-500  bg-slate-800 text-gray-200">Track 1</td>
     </tr>
   </thead>
   <tbody>
     <tr >
-      <td class="   rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-pink-200  text-blue-600">COMPUTATIONAL INTELLIGENCE METHODOLOGIES</td>
+      <td class="   rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white  text-blue-600">COMPUTATIONAL INTELLIGENCE METHODOLOGIES</td>
     </tr>
   </tbody>
 </table>
@@ -43,12 +43,12 @@ const Call  = ()=>{
           <table class=" border-collapse rounded-xl shadow-dark-neumorphism-l  border-slate-500 ...">
   <thead>
     <tr >
-      <td class=" w-52 rounded-tl-xl  rounded-tr-xl  py-2 px-2 border-slate-500  bg-red-700 text-gray-200">track 2</td>
+      <td class=" w-52 rounded-tl-xl  rounded-tr-xl  py-2 px-2 border-slate-500  bg-slate-800 text-gray-200">track 2</td>
     </tr>
   </thead>
   <tbody>
     <tr >
-      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-pink-200   text-blue-600">COMPUTATIONAL INTELLIGENCE IN SIGNAL & IMAGE PROCESSING</td>
+      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white   text-blue-600">COMPUTATIONAL INTELLIGENCE IN SIGNAL & IMAGE PROCESSING</td>
     </tr>
   </tbody>
 </table>
@@ -57,12 +57,12 @@ const Call  = ()=>{
           <table class=" shadow-dark-neumorphism-l rounded-xl border-collapse  border-slate-500 ...">
   <thead>
     <tr >
-      <td class=" w-52 rounded-tl-xl  rounded-tr-xl  py-2 px-2 border-slate-500  bg-red-700 text-gray-200">track 3</td>
+      <td class=" w-52 rounded-tl-xl  rounded-tr-xl  py-2 px-2 border-slate-500  bg-slate-800 text-gray-200">track 3</td>
     </tr>
   </thead>
   <tbody>
     <tr >
-      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-pink-200  text-blue-600">COMPUTATIONAL INTELLIGENCE IN WIRELESS COMMUNICATION NETWORKS</td>
+      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white  text-blue-600">COMPUTATIONAL INTELLIGENCE IN WIRELESS COMMUNICATION NETWORKS</td>
     </tr>
   </tbody>
 </table>
@@ -71,12 +71,12 @@ const Call  = ()=>{
           <table class=" shadow-dark-neumorphism-l rounded-xl border-collapse  border-slate-500 ...">
   <thead>
     <tr >
-      <td class=" w-52 py-2 rounded-tl-xl  rounded-tr-xl px-2 border-slate-500 bg-red-700 text-gray-200">track 4</td>
+      <td class=" w-52 py-2 rounded-tl-xl  rounded-tr-xl px-2 border-slate-500 bg-slate-800 text-gray-200">track 4</td>
     </tr>
   </thead>
   <tbody>
     <tr >
-      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-pink-200    text-blue-600">COMPUTATIONAL METHODS FOR POWER SYSTEMS</td>
+      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white    text-blue-600">COMPUTATIONAL METHODS FOR POWER SYSTEMS</td>
     </tr>
   </tbody>
 </table>
@@ -85,12 +85,12 @@ const Call  = ()=>{
           <table class=" shadow-dark-neumorphism-l rounded-xl border-collapse  border-slate-500 ...">
   <thead>
     <tr >
-      <td class=" w-52  py-2 rounded-tl-xl  rounded-tr-xl px-2 border-slate-500  bg-red-700 text-gray-200">track 5</td>
+      <td class=" w-52  py-2 rounded-tl-xl  rounded-tr-xl px-2 border-slate-500  bg-slate-800 text-gray-200">track 5</td>
     </tr>
   </thead>
   <tbody>
     <tr >
-      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-pink-200   text-blue-600">COMPUTATIONAL INTELLIGENCE APPLICATIONS </td>
+      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white   text-blue-600">COMPUTATIONAL INTELLIGENCE APPLICATIONS </td>
     </tr>
   </tbody>
 </table>
@@ -107,12 +107,12 @@ const Call  = ()=>{
        
         <div className="pb-6 pt-10">
         <div className='container rounded-xl bg-gradient-to-br shadow-dark-neumorphism-xl from-blue-900 to-blue-300 pb-4 mx-auto'>
-      <h2 className='h2 mb-4 text-left bg-red-900 px-4 py-2  rounded-tl-xl rounded-tr-xl font font-black text-gray-300 text-xl' >
+      <h2 className='h2 mb-4 text-left bg-slate-800 px-4 py-2  rounded-tl-xl rounded-tr-xl font font-black text-white text-xl' >
       Track 1: COMPUTATIONAL INTELLIGENCE METHODOLOGIES
             </h2>
         <div className=' pt-6       grid md:grid-cols-2 grid-cols-1  gap-6 text-left'>
           <div className='mx-auto lg:mr-4'>
-          <table class=" border-collapse bg-gradient-to-br rounded-xl  shadow-dark-neumorphism-l from-red-800 to-red-600 pb-4 mx-auto  border-slate-500 ...">
+          <table class=" border-collapse  rounded-xl  shadow-dark-neumorphism-l  bg-slate-800 pb-4 mx-auto  border-slate-500">
   <thead>
     <tr className="border-b border-gray-900">
       <td class=" w-52 py-2 px-2  rounded-tr-xl rounded-tl-xl   text-gray-100">Statistical models</td>
@@ -141,7 +141,7 @@ const Call  = ()=>{
 </table>
           </div>
           <div className='mx-auto lg:ml-4'>
-          <table class=" border-collapse rounded-xl bg-gradient-to-br shadow-dark-neumorphism-l from-red-800 to-red-600 border-slate-500 ...">
+          <table class=" border-collapse rounded-xl shadow-dark-neumorphism-l  bg-slate-800 border-slate-500 ...">
   <thead>
     <tr className="border-b border-gray-900">
       <td class=" w-52 py-2 px-2 border-slate-500     text-gray-100">Fuzzy systems</td>
@@ -176,12 +176,12 @@ const Call  = ()=>{
 
       <div className="py-6 ">
         <div className='container rounded-xl bg-gradient-to-br shadow-dark-neumorphism-xl from-blue-900 to-blue-300 pb-4 mx-auto'>
-      <h2 className='h2 mb-4 text-left bg-red-900 px-4 py-2  rounded-tl-xl rounded-tr-xl font font-black text-gray-300 text-xl' >
+      <h2 className='h2 mb-4 text-left bg-slate-800 px-4 py-2  rounded-tl-xl rounded-tr-xl font font-black text-gray-300 text-xl' >
       Track 2: COMPUTATIONAL INTELLIGENCE IN SIGNAL & IMAGE PROCESSING
             </h2>
         <div className='  pt-6  grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
           <div className='mx-auto lg:mr-4'>
-          <table class=" border-collapse max-w-[250px] bg-gradient-to-br rounded-xl  shadow-dark-neumorphism-l from-red-800 to-red-600 border-slate-500 ...">
+          <table class=" border-collapse max-w-[250px] rounded-xl  shadow-dark-neumorphism-l  bg-slate-800 border-slate-500 ...">
   <thead>
     <tr className="border-b border-gray-900">
       <td class=" w-52 py-2 px-2 text-sm   text-gray-100">Computational intelligence methods for modeling</td>
@@ -220,7 +220,7 @@ const Call  = ()=>{
 </table>
 </div>
           <div className=' mx-auto lg:ml-4'>
-          <table class=" border-collapse max-w-[250px] bg-gradient-to-br rounded-xl  shadow-dark-neumorphism-l from-red-800 to-red-600 border-slate-500 ...">
+          <table class=" border-collapse max-w-[250px]  rounded-xl  shadow-dark-neumorphism-l  bg-slate-800 border-slate-500 ...">
   <thead>
     <tr className="border-b border-gray-900">
       <td class=" w-52 py-2 px-2 border-slate-500  text-sm  text-gray-100">Statistical signal processing</td>
@@ -265,12 +265,12 @@ const Call  = ()=>{
 
        <div className="py-6 ">
         <div className='container rounded-xl bg-gradient-to-br shadow-dark-neumorphism-xl from-blue-900 to-blue-300 pb-4 mx-auto'>
-      <h2 className='h2 mb-4 text-left bg-red-900 px-4 py-2  rounded-tl-xl rounded-tr-xl font font-black text-gray-300 text-xl' >
+      <h2 className='h2 mb-4 text-left bg-slate-800 px-4 py-2  rounded-tl-xl rounded-tr-xl font font-black text-gray-300 text-xl' >
       Track 3: COMPUTATIONAL INTELLIGENCE IN WIRELESS COMMUNICATION NETWORKS
             </h2>
         <div className=' pt-6   grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
           <div className='mx-auto lg:mr-4'>
-          <table class=" border-collapse max-w-[250px] bg-gradient-to-br rounded-xl  shadow-dark-neumorphism-l from-red-800 to-red-600 border-slate-500 ...">
+          <table class=" border-collapse max-w-[250px]  rounded-xl  shadow-dark-neumorphism-l  bg-slate-800 border-slate-500 ...">
   <thead>
     <tr className="border-b border-gray-900">
       <td class=" w-52 py-2 px-2 border-slate-500 text-sm   text-gray-100">Ad Hoc networks optimization issues</td>
@@ -305,7 +305,7 @@ const Call  = ()=>{
 </table>
 </div>
           <div className='mx-auto lg:ml-4'>
-          <table class=" border-collapse max-w-[250px] bg-gradient-to-br rounded-xl  shadow-dark-neumorphism-l from-red-800 to-red-600 border-slate-500 ...">
+          <table class=" border-collapse max-w-[250px] rounded-xl  shadow-dark-neumorphism-l  bg-slate-800 border-slate-500 ...">
   <thead>
     <tr className="border-b border-gray-900">
       <td class=" w-52 py-2 px-2 border-slate-500  text-sm  text-gray-100">Optimization techniques in Telecommunication</td>
@@ -351,12 +351,12 @@ const Call  = ()=>{
 
       <div className="py-6 ">
         <div className='container rounded-xl bg-gradient-to-br shadow-dark-neumorphism-xl from-blue-900 to-blue-300 pb-4 mx-auto'>
-      <h2 className='h2 mb-4 text-left bg-red-900 px-4 py-2  rounded-tl-xl rounded-tr-xl font font-black text-gray-300 text-xl' >
+      <h2 className='h2 mb-4 text-left bg-slate-800 px-4 py-2  rounded-tl-xl rounded-tr-xl font font-black text-gray-300 text-xl' >
       Track 4: COMPUTATIONAL METHODS FOR POWER SYSTEMS
             </h2>
         <div className=' pt-6    grid md:grid-cols-2 grid-cols-1 gap-6 text-left'>
           <div className='mx-auto lg:mr-4'>
-          <table class="bg-gradient-to-br rounded-xl  shadow-dark-neumorphism-l from-red-800 to-red-600 border-collapse max-w-[250px] border-slate-500 ...">
+          <table class=" rounded-xl  shadow-dark-neumorphism-l  bg-slate-800  border-collapse max-w-[250px] border-slate-500 ...">
   <thead>
     <tr className="border-b border-gray-900">
       <td class=" py-2 w-52 px-2 border-slate-500 text-sm   text-gray-100">E-vehicles</td>
@@ -382,7 +382,7 @@ const Call  = ()=>{
 </table>
 </div>
           <div className='mx-auto lg:ml-4'>
-          <table class=" border-collapse max-w-[250px] border-slate-500 bg-gradient-to-br rounded-xl  shadow-dark-neumorphism-l from-red-800 to-red-600">
+          <table class=" border-collapse max-w-[250px] border-slate-500  rounded-xl  shadow-dark-neumorphism-l  bg-slate-800">
   <thead>
     <tr className="border-b border-gray-900">
       <td class=" py-2 w-52 px-2 border-slate-500  text-sm  text-gray-100">Green computing</td>
@@ -417,12 +417,12 @@ const Call  = ()=>{
 
       <div className="py-6 ">
         <div className='container rounded-xl bg-gradient-to-br shadow-dark-neumorphism-xl from-blue-900 to-blue-300 pb-4 mx-auto'>
-      <h2 className='h2 mb-4 text-left  bg-red-900 px-4 py-2  rounded-tl-xl rounded-tr-xl font font-black text-gray-300 text-xl' >
+      <h2 className='h2 mb-4 text-left  bg-slate-800 px-4 py-2  rounded-tl-xl rounded-tr-xl font font-black text-gray-300 text-xl' >
       Track 5: COMPUTATIONAL INTELLIGENCE APPLICATIONS
             </h2>
         <div className=' pt-6    grid md:grid-cols-2 grid-cols-1  text-left'>
           <div className='mx-auto pb-4 lg:mr-4'>
-          <table class=" border-collapse max-w-[250px] bg-gradient-to-br rounded-xl  shadow-dark-neumorphism-l from-red-800 to-red-600 border-slate-500 ...">
+          <table class=" border-collapse max-w-[250px]  rounded-xl  shadow-dark-neumorphism-l  bg-slate-800 border-slate-500 ...">
   <thead>
     <tr className="border-b border-gray-900">
       <td class=" py-2 w-52 px-2 border-slate-500 text-sm   text-gray-100">Application of ML and DL in civil engineering</td>
@@ -439,7 +439,7 @@ const Call  = ()=>{
 </table>
 </div>
           <div className='mx-auto py-4 lg:ml-4'>
-          <table class=" border-collapse max-w-[250px] bg-gradient-to-br rounded-xl  shadow-dark-neumorphism-l from-red-800 to-red-600 border-slate-500 ...">
+          <table class=" border-collapse max-w-[250px]  rounded-xl  shadow-dark-neumorphism-l  bg-slate-800 border-slate-500 ...">
   <thead>
     <tr className="border-b border-gray-900">
       <td class=" py-2 w-52 px-2 border-slate-500  text-sm  text-gray-100">Robotics and Intelligent systems</td>

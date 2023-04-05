@@ -14,7 +14,7 @@ const Home  = ()=>{
     return(
       <div>
         <h1 className="text-xl py-6 pl-4">Home </h1>
-        <div className="pb-12 bg-[url('../public/matrix.gif')]  bg-fixed " >
+        <div className="bg-[url('../public/try6.gif')] bg-cover bg-fixed" >
              
 
             

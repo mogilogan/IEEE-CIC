@@ -3,14 +3,15 @@ import React from "react";
 const Contact  = ()=>{
     return(
         <div>
+          
             <h1 className="text-xl py-6 pl-4">Home / Contact</h1>
-
+            <div className="bg-[url('../public/try6.gif')] bg-cover bg-fixed">
             <section
       className='my-[5px] '
       id="#About"
 
     >
-      <div className='container mx-auto'>
+      <div className='container py-8 mx-auto'>
         <div className=' bg-gradient-to-br rounded-xl  from-red-300 to-purple-200    pb-12 flex flex-col    '>
             <div className="">
           <div className='flex-1 rounded-tr-xl rounded-tl-xl bg-blue-200 '>
@@ -41,6 +42,7 @@ const Contact  = ()=>{
         </div>
       </div>
     </section>
+    </div>
         </div>
     )
 }

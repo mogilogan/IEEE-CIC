@@ -4,7 +4,7 @@ const Timelines  = ()=>{
     return(
         <div>
             <h1 className="text-xl py-6 pl-4">Home / Timelines</h1>
-
+<div className="bg-[url('../public/try6.gif')] bg-cover bg-fixed">
             <section
       className='my-[5px] '
       id="#About"
@@ -14,16 +14,14 @@ const Timelines  = ()=>{
         <div className='   pb-12 flex flex-col    '>
             <div className="">
           <div className='flex-1 '>
-            <h2 className='h2 mb-10 px-4 pb-4 pt-2 font font-black text-blue-800 text-md' >
+            <h2 className='h2    py-4 font font-black text-yellow-500 text-center text-md' >
             Important Dates
             </h2>
             </div>
-            <div className=" pb-6 bg-[url('../public/try5.gif')] bg-cover bg-fixed ">
-        <div className='container    mx-auto '>
-     
-        <div className='  py-4 mx-auto   gap-0 text-left'>
-          <div className='mx-auto'>
-          <table class="mx-auto bg-gradient-to-br from-red-500 to-purple-500 table-auto border-collapse border border-slate-900">
+          
+        <div className=' mx-auto   gap-0 text-left'>
+          
+          <table class="mx-auto rounded bg-gradient-to-br from-red-500 to-purple-500 table-auto border-collapse border border-slate-900">
   <thead>
     <tr className="hover:bg-red-200 " >
       <th class="border py-2 px-2 border-slate-400   ">Submission of Full Paper</th>
@@ -51,14 +49,15 @@ const Timelines  = ()=>{
   
 </table>
           </div>
-          </div>
-          </div>
+        
+         
           </div>
            
           </div>
-        </div>
+     
       </div>
     </section>
+    </div>
         </div>
     )
 }
