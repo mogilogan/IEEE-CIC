@@ -8,7 +8,7 @@ const Call  = ()=>{
    
     return(
         <div>
-             <h1 className="text-xl py-6 pl-4">Home / Call For Papers</h1>
+             <h1 className="flex text-xl py-6 pl-4 leading-4"><a className=" flex gap-1 hover:text-teal-600" href="/">  <svg  height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9"/><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8"/></g></svg>Home </a>  /Call For Papers</h1>
 <div className="bg-[url('../public/techcir.gif')] bg-cover bg-fixed  ">
             <section
       className='my-[5px] pt-12'
@@ -30,12 +30,12 @@ const Call  = ()=>{
           <table class=" border-collapse rounded-xl hover:shadow-dark-neumorphism-xl  shadow-dark-neumorphism-l     table-fixed  border-slate-500">
   <thead>
     <tr >
-      <td class="  w-52 rounded-tl-xl  rounded-tr-xl   py-2 px-2 border-slate-500  bg-slate-800 text-gray-200">Track 1</td>
+      <td class=" text-lg  w-52 rounded-tl-xl  rounded-tr-xl   py-2 px-2 border-slate-500  bg-slate-800 text-gray-200">Track 1</td>
     </tr>
   </thead>
   <tbody>
     <tr >
-      <td class="   rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white  text-center  text-teal-600">COMPUTATIONAL INTELLIGENCE METHODOLOGIES</td>
+      <td class=" text-[17px] rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white  text-center  text-teal-600">COMPUTATIONAL INTELLIGENCE METHODOLOGIES</td>
     </tr>
   </tbody>
 </table></a>
@@ -45,12 +45,12 @@ const Call  = ()=>{
           <table class=" border-collapse rounded-xl hover:shadow-dark-neumorphism-xl shadow-dark-neumorphism-l  border-slate-500 ...">
   <thead>
     <tr >
-      <td class=" w-52 rounded-tl-xl  rounded-tr-xl  py-2 px-2 border-slate-500  bg-slate-800 text-gray-200">Track 2</td>
+      <td class="text-lg w-52 rounded-tl-xl  rounded-tr-xl  py-2 px-2 border-slate-500  bg-slate-800 text-gray-200">Track 2</td>
     </tr>
   </thead>
   <tbody>
     <tr >
-      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white    text-center  text-teal-600">COMPUTATIONAL INTELLIGENCE IN SIGNAL & IMAGE PROCESSING</td>
+      <td class="text-[17px] rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white    text-center  text-teal-600">COMPUTATIONAL INTELLIGENCE IN SIGNAL & IMAGE PROCESSING</td>
     </tr>
   </tbody>
 </table></a>
@@ -60,12 +60,12 @@ const Call  = ()=>{
           <table class="hover:shadow-dark-neumorphism-xl shadow-dark-neumorphism-l rounded-xl border-collapse  border-slate-500 ...">
   <thead>
     <tr >
-      <td class=" w-52 rounded-tl-xl  rounded-tr-xl  py-2 px-2 border-slate-500  bg-slate-800 text-gray-200">Track 3</td>
+      <td class="text-lg w-52 rounded-tl-xl  rounded-tr-xl  py-2 px-2 border-slate-500  bg-slate-800 text-gray-200">Track 3</td>
     </tr>
   </thead>
   <tbody>
     <tr >
-      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white   text-center  text-teal-600">COMPUTATIONAL INTELLIGENCE IN WIRELESS COMMUNICATION NETWORKS</td>
+      <td class="text-[17px] rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white   text-center  text-teal-600">COMPUTATIONAL INTELLIGENCE IN WIRELESS COMMUNICATION NETWORKS</td>
     </tr>
   </tbody>
 </table></a>
@@ -75,12 +75,12 @@ const Call  = ()=>{
           <table class="hover:shadow-dark-neumorphism-xl shadow-dark-neumorphism-l rounded-xl border-collapse  border-slate-500 ...">
   <thead>
     <tr >
-      <td class=" w-52 py-2 rounded-tl-xl  rounded-tr-xl px-2 border-slate-500 bg-slate-800 text-gray-200">Track 4</td>
+      <td class="text-lg w-52 py-2 rounded-tl-xl  rounded-tr-xl px-2 border-slate-500 bg-slate-800 text-gray-200">Track 4</td>
     </tr>
   </thead>
   <tbody>
     <tr >
-      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white     text-center  text-teal-600">COMPUTATIONAL METHODS FOR POWER SYSTEMS</td>
+      <td class="text-[17px] rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white     text-center  text-teal-600">COMPUTATIONAL METHODS FOR POWER SYSTEMS</td>
     </tr>
   </tbody>
 </table></a>
@@ -90,12 +90,12 @@ const Call  = ()=>{
           <table class="hover:shadow-dark-neumorphism-xl shadow-dark-neumorphism-l rounded-xl border-collapse  border-slate-500 ...">
   <thead>
     <tr >
-      <td class=" w-52  py-2 rounded-tl-xl  rounded-tr-xl px-2 border-slate-500  bg-slate-800 text-gray-200">Track 5</td>
+      <td class="text-lg w-52  py-2 rounded-tl-xl  rounded-tr-xl px-2 border-slate-500  bg-slate-800 text-gray-200">Track 5</td>
     </tr>
   </thead>
   <tbody>
     <tr >
-      <td class=" rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white    text-center  text-teal-600">COMPUTATIONAL INTELLIGENCE APPLICATIONS </td>
+      <td class="text-[17px] rounded-bl-xl rounded-br-xl w-52 h-40 py-2 px-2 border-slate-500 bg-white    text-center  text-teal-600">COMPUTATIONAL INTELLIGENCE APPLICATIONS </td>
     </tr>
   </tbody>
 </table></a>
@@ -479,7 +479,7 @@ const Call  = ()=>{
             CONFERENCE PUBLICATIONS
             </h2>
             <div className="">
-            <ul class="list-disc mx-auto text-left px-12">
+            <ul class="list-disc text-lg mx-auto text-left px-12">
   <li><p className='text-left pb-5 mx-auto'>The CIC 2023 conference plans to include only quality papers with significant
 contributions. All submissions will be screened for plagiarism and all
 submitted papers will undergo a peer review process by the Technical

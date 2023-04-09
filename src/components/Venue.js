@@ -16,7 +16,7 @@ const Venue = ()=>{
 	// })
     return(
         <div>
-            <h1 className="text-xl py-6 pl-4">Home / Venue</h1>
+             <h1 className="flex text-xl py-6 pl-4 leading-4"><a className=" flex gap-1 hover:text-teal-600" href="/">  <svg  height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9"/><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8"/></g></svg>Home</a> / Venue</h1>
             {/* <div>
   				<RandomHLine width={600} height={150} options={{numLines: numLines, numControls: 4, debug: false, styleMid: styles}} />
   			</div> */}
@@ -41,11 +41,11 @@ const Venue = ()=>{
         <div className='    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row  xl:text-left  xl:gap-x-[40px] xl:pb-0    '>
            
         <div className='flex-1 center mx-auto' data-aos='zoom-in-left'>
-            <img className="border-white xl:max-h-[500px] max-h-[700px]" src={mandapam}  alt='' />
+            <img className="border-white xl:pl-20 xl:max-h-[550px] max-h-[700px]" src={mandapam}  alt='' />
           </div>
           <div className='flex-1 '>
             <p
-              className='md:px-12 pt-4 text-justify  mx-auto'
+              className='md:px-6 pt-4 text-lg  text-justify  mx-auto'
             >
            Pondicherry ( or Puducherry), a French colonial settlement in India until 1954, is now a Union Territory town bounded by the south eastern Tamil Nadu state. It’s French legacy is preserved in it’s French quarter, with tree-lined streets, mustard coloured colonial villas and chic boutiques. The town offers a unique experience with its mix of modern heritage and spiritual culture. A sea side promenade runs along the Bay of Bengal and passes several statues, including a four metre high Gandhi memorial. Heritage is one the most precious gift, Puducherry has been offering to it’s tourists and visitors. The coastal town of Puducherry with the French ambience is known for the serene atmosphere. The Eglise de Notre Dame des Anges, Place De Gouvernement, French War Memorial, Sri Manakula Vinayakar Temple, Serinity beach, Chunnambar and Paradise Beach Boat house are some of the major tourist attractions in and around Puducherry. Sri Aurobindo Ashram and the nearby Auroville International Township lend unique spiritual flavour to the city.
             </p>
@@ -81,7 +81,7 @@ const Venue = ()=>{
           </div>
           <div className='flex-1 '>
             <p
-              className='md:px-12 pt-4 text-justify  mx-auto'
+              className='md:px-12 pt-4 text-lg text-justify  mx-auto'
             >
            Puducherry Technological University (PTU) is the first state University of Union Territory of Puducherry. It seamlessly came into existence on the 5 th September 2020 upon the elevation of erstwhile Pondicherry Engineering College - PEC (established in the year 1985 under the 7 th  five-year plan) with the University status. PTU began its journey with a position of pre-eminence and rightly stands as one of the finest engineering schools offering Bachelors, Masters and Doctoral study programmes in the prominent disciplines of Engineering/Technology, Science, Management and Entrepreneurship. Highly qualified faculty, diverse student population from across the country, best-of-breed infrastructure and an expansive campus sprawling over 185.8 acres of luscious green landscape on the shores of tantalizing Bay of Bengal present a vibrant ecosystem for the pursuit of intellectual excellence. Thirty-six years on since its original inception, PTU has built a legacy for itself and stands in good stead in terms of discernible academic parameters. NIRF, MHRD, Govt. of India has ranked PTU at 150 under the category of engineering education. PTU alumni are spread far and wide across the globe holding eminent positions in top global Corporates, Universities and Civil Services. Some of them own successful enterprises in India and abroad. Such accomplishments stand testimony to the quality of education we have been offering from the classrooms of PTU.
             </p>
@@ -114,7 +114,7 @@ const Venue = ()=>{
           </div>
           <div className='flex-1 '>
             <p
-              className='md:px-12 pt-4   text-justify mx-auto'
+              className='md:px-12 pt-4 text-lg   text-justify mx-auto'
             >
           The Department of Electronics and Communication Engineering, since its inception in the year 1985, has been producing globally competitive engineering graduates. It is resourceful in terms of infrastructure and the state of the art facilities to pursue academic studies and research in niche areas of technology. The highly qualified and experienced faculties are one of the most significant features of the department. The department commenced to offer its first M.Tech degree program in the year 1990 and second M.Tech degree program on Wireless Communication technologies in the year 2006. Over the years, the department has matured into the QIP research centre producing Ph.D. Graduates in different specialisations of Electronics and Communication Engineering.
             </p>

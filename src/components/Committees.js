@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { callfp1,callfp2,callfor1,callfor2 } from "../data";
 
 const Committees = ()=>{
+
+   const [tpc,Settpc]=useState("block");
 
 
 
@@ -11,9 +13,19 @@ const Committees = ()=>{
     const {list3} = callfp1;
     const {list4} = callfp2;
 
+    const handleclick =()=>{
+
+      if(tpc==="block"){
+         Settpc("hidden");
+      } else{
+         Settpc("block");
+      }
+
+    }
+
     return(
         <div>
-          <h1 className="text-xl py-6 pl-4">Home / Paper Submissions</h1>
+             <h1 className="flex text-xl py-6 pl-4 leading-4"><a className=" flex gap-1 hover:text-teal-600" href="/">  <svg  height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" transform="translate(1 1)"><path d="m.5 9.5 9-9 9 9"/><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8"/></g></svg>Home</a> / Paper Submissions</h1>
             <div className="bg-[url('../public/try6.gif')] bg-cover bg-fixed">
             <h1 className="h2 mb-6  pt-2 text-yellow-500 text-center font font-black text-3xl">Committees</h1>
 
@@ -174,15 +186,23 @@ const Committees = ()=>{
   
 
             <div className="py-6 ">
-        <div className='container  shadow-dark-neumorphism-xl  pb-4 mx-auto'>
-      <h2 className='h2 text-left bg-red-900 px-4 py-2   rounded-xl font font-black text-gray-100 text-xl' >
-      Technical Program Committee <span className="">^</span>
-            </h2>
+        <div className='container   pb-4 mx-auto'>
+      <button className="w-full " ><h2 onClick={handleclick} className='hover:bg-yellow-600 h2 text-left bg-red-900 px-4 py-2   rounded-xl font font-black text-gray-100 text-xl' >
+      Technical Program Committee 
+            </h2></button>
+            
+
+            <div className={`${tpc} pt-12`}>
+            <h2  className='h2 text-left bg-red-900 px-4 py-2   rounded-xl font font-black text-gray-100 text-xl' >
+      International
+            </h2>   
 
             
-        <div className='pt-10 grid grid-cols-1 md:grid-cols-2 md:gap-2 text-left'>
+        <div className="pt-10 grid grid-cols-1 md:grid-cols-2 md:gap-2 text-left">
          
-        <table class=" border-collapse md:rounded-xl  rounded-tl-xl rounded-tr-xl bg-gradient-to-br  from-green-700 to-green-400 ">
+         
+
+        <table class=" border-collapse md:rounded-xl  rounded-tl-xl rounded-tr-xl bg-gradient-to-br  from-green-800 to-green-600 ">
   <tbody>
 
   {list1.map((feature ,index) => {
@@ -208,7 +228,7 @@ const Committees = ()=>{
 </table>
 
 
-<table class=" border-collapse md:rounded-tr-xl md:rounded-tl-xl  rounded-bl-xl rounded-br-xl bg-gradient-to-br  from-green-700 to-green-400 ">
+<table class=" border-collapse md:rounded-tr-xl md:rounded-tl-xl  rounded-bl-xl rounded-br-xl bg-gradient-to-br  from-green-800 to-green-600 ">
   <tbody>
 
   {list2.map((feature ,index) => {
@@ -237,9 +257,10 @@ const Committees = ()=>{
           </div>
         </div>
         </div>
+        </div>
 
 
-
+        <div className={`${tpc} pt-12`}>
         <div className="py-6 ">
         <div className='container  shadow-dark-neumorphism-xl  pb-4 mx-auto'>
       <h2 className='h2 text-left bg-red-900 px-4 py-2   rounded-xl font font-black text-gray-100 text-xl' >
@@ -249,7 +270,7 @@ const Committees = ()=>{
             
         <div className='pt-10 grid grid-cols-1 md:grid-cols-2 md:gap-2 text-left'>
          
-        <table class=" border-collapse md:rounded-xl  rounded-tl-xl rounded-tr-xl bg-gradient-to-br  from-green-700 to-green-400 ">
+        <table class=" border-collapse md:rounded-xl  rounded-tl-xl rounded-tr-xl bg-gradient-to-br  from-green-800 to-green-600 ">
   <tbody>
 
   {list3.map((feature ,index) => {
@@ -275,7 +296,7 @@ const Committees = ()=>{
 </table>
 
 
-<table class=" border-collapse md:rounded-tr-xl md:rounded-tl-xl  rounded-bl-xl rounded-br-xl bg-gradient-to-br  from-green-700 to-green-400 ">
+<table class=" border-collapse md:rounded-tr-xl md:rounded-tl-xl  rounded-bl-xl rounded-br-xl bg-gradient-to-br  from-green-800 to-green-600 ">
   <tbody>
 
   {list4.map((feature ,index) => {
@@ -304,6 +325,7 @@ const Committees = ()=>{
           <div className=' mx-auto lg:ml-4'>
  
           </div>
+        </div>
         </div>
         </div>
 
