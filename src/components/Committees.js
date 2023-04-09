@@ -190,7 +190,7 @@ const Committees = ()=>{
 
             <div className="py-6 ">
         <div className='container   pb-4 mx-auto'>
-      <button className="w-full " ><h2 onClick={handleclick} className='hover:bg-yellow-600 h2 text-left bg-red-900 px-4 py-2   rounded-xl font font-black text-gray-100 text-xl' >
+      <button className="w-full " ><h2 onClick={handleclick} className='hover:bg-yellow-600 h2 text-left bg-red-900 px-4 py-2   rounded-xl font font-black text-gray-100 text-md md:text-xl' >
       Technical Program Committee <span className="float-right">{status}</span>
             </h2></button>
             
