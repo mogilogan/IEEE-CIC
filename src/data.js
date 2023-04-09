@@ -1,5 +1,13 @@
-export const callfp = {
-  list: [
+export const callfor1={
+  list1:[
+    {
+
+      Name: 'Dr. Yu-Chen Hu',
+      description:
+        'Distinguished Professor in the Dept. of Computer Science & Information Management',
+      description1:
+        ' Providence University Republic of China (Taiwan)',
+    },
     {
 
       Name: 'Dr.Selwyn Piramuthu',
@@ -110,14 +118,14 @@ export const callfp = {
         'University Malaysia Perlis, Arau, Perlis, Malaysia',
 
     },
-    {
+  
+    
+  ]
+}
 
-      Name: 'Dr. Vidhyacharan Bhaskar ',
-      description:
-        'Dept of Computer Science ',
-      description1:
-        'University of California at Davis, Dublin, CA',
-    },
+export const callfor2 = {
+  list2:[
+    
     {
 
       Name: 'Dr.Dhanapal Durai Dominic ',
@@ -126,9 +134,6 @@ export const callfp = {
       description1:
         'Universiti Teknologi PETRONAS , Perak, Malaysia',
     },
-
-
-
     {
 
       Name: 'Dr.Arul Elango ',
@@ -225,14 +230,13 @@ export const callfp = {
       description1:
         'College of Computing and Informatics, Saudi Electronic University, KSA',
     },
-    {
+   
+  ]
+}
 
-      Name: 'Dr. Geetha Devi',
-      description:
-        'National University of Science & Technology',
-      description1:
-        'College of Engineering, Oman',
-    },
+
+export const callfp1 ={
+  list3:[
     {
 
       Name: 'Dr.Subhasis Bhaumik',
@@ -618,14 +622,21 @@ export const callfp = {
       description1:
         'NIT Puducherry, Karaikal',
     },
-    {
+   
+  ]
+}
 
-      Name: 'Dr. Malaya Kumar Nath',
-      description:
-        'Department of ECE',
-      description1:
-        'NIT Puducherry, Karaikal',
-    },
+
+
+
+
+export const callfp2 = {
+  list4: [
+   
+    
+    
+    
+    
     {
 
       Name: 'Dr Sunanda Ambulker',
@@ -975,14 +986,7 @@ export const callfp = {
       description1:
         'Kattankulathur, Tamilnadu',
     },
-    {
-
-      Name: 'Dr.R.Aarthi',
-      description:
-        'SRM Easwari Engineering College',
-      description1:
-        'Tamil Nadu',
-    },
+    
 
 
 

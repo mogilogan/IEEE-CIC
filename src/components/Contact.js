@@ -12,7 +12,7 @@ const Contact  = ()=>{
 
     >
       <div className='container py-8 mx-auto'>
-        <div className=' bg-gradient-to-br rounded-xl  from-red-300 to-purple-200    pb-12 flex flex-col    '>
+        <div className=' bg-white    pb-12 flex flex-col    '>
             <div className="">
           <div className='flex-1 rounded-tr-xl rounded-tl-xl bg-blue-200 '>
             <h2 className='h2 mb-10 px-4 pb-4 pt-2 font font-black text-blue-800 text-md' >
@@ -29,13 +29,13 @@ const Contact  = ()=>{
               Department of Electronics & Communication Engineering
             </p>
             <p className='px-12   text-left mx-auto'>
-            Pondicherry Engineering College
+            PUDUCHERRY TECHNOLOGICAL UNIVERISTY
             </p>
             <p className='px-12   text-left mx-auto'>
             Puducherry – 605014, INDIA
             </p>
             <p className='px-12 pt-6   text-left mx-auto'>
-            Email: examplemail@pec.edu
+            Email: cic@ptuniv.edu.in
             </p>
            
           </div>

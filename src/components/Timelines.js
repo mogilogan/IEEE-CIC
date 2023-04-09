@@ -21,11 +21,11 @@ const Timelines  = ()=>{
           
         <div className=' mx-auto   gap-0 text-left'>
           
-          <table class="mx-auto rounded bg-gradient-to-br from-red-500 to-purple-500 table-auto border-collapse border border-slate-900">
+          <table class="mx-auto text-xl bg-white shadow-light-inner-neumorphism-xl rounded-xl table-auto border-collapse border border-slate-900">
   <thead>
     <tr className="hover:bg-red-200 " >
-      <th class="border py-2 px-2 border-slate-400   ">Submission of Full Paper</th>
-      <td class="border py-2 px-2 border-slate-400   ">15.07.2016</td>
+      <th class="border-r py-2 px-2 border-slate-400   ">Submission of Full Paper</th>
+      <td class=" py-2 px-2   ">15.07.2016</td>
     </tr>
   </thead>
   <tbody>
@@ -42,8 +42,8 @@ const Timelines  = ()=>{
       <td class="border py-2 px-2 border-slate-400  ">10.09.2016(Late)</td>
     </tr>
     <tr className="hover:bg-red-200 ">
-    <th class="border py-2 px-2 border-slate-400   ">Conference Dates</th>
-      <td class="border py-2 px-2 border-slate-400  ">19.10.2016 & 20.10.2016</td>
+    <th class=" py-2 px-2 border-slate-400   ">Conference Dates</th>
+      <td class="border-l py-2 px-2 border-slate-400  ">19.10.2016 & 20.10.2016</td>
     </tr>
   </tbody>
   

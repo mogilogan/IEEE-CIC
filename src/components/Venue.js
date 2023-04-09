@@ -1,39 +1,51 @@
 import React from "react";
 
+// import { RandomHLine, RandomBlob } from 'react-random-shapes'
+
+
 import mandapam from './assests/mandapam.jpg';
 import ptubuild from './assests/ptubuild.jpg';
 import ece from './assests/ece.jpg';
 
 const Venue = ()=>{
+  // const numLines = 6
+  // const rng = Array.from(new Array(numLines), (x, i) => i)
+	// const start = Math.random() * 360
+  // const styles = rng.map(x => {
+	// 	return {fill: "transparent", stroke: `hsl(${start + x/numLines*360}, 100%, 50%)`}
+	// })
     return(
         <div>
             <h1 className="text-xl py-6 pl-4">Home / Venue</h1>
-
+            {/* <div>
+  				<RandomHLine width={600} height={150} options={{numLines: numLines, numControls: 4, debug: false, styleMid: styles}} />
+  			</div> */}
+        <div className="bg-[url('../public/try6.gif')] bg-cover bg-fixed"> 
 
             <section
-      className='my-[5px] '
+      className='my-[5px] py-12'
       id="#About"
 
     >
-      <div className='container mx-auto bg-gray-100'>
+      <div className='container rounded-xl  bg-gradient-to-br from-blue-500 to-blue-200 mx-auto '>
            
 
-      <h1 className="text-3xl pl-4 font-bold text-blue-700 text-left py-4">PUDUCHERRY</h1>
+      <h1 className="text-3xl pl-4 font-bold text-white text-left py-4">PUDUCHERRY</h1>
 
 
-<div class="w-full max-w-[90%] mx-auto bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-  <div class="bg-blue-600 h-2.5 rounded-full " style={{width: "30%"}}></div>
+<div class="w-full max-w-[90%] mx-auto  rounded-full h-2.5 mb-4 bg-gray-700">
+  <div class="bg-yellow-400 h-2.5 rounded-full " style={{width: "30%"}}></div>
 </div>
 
 
-        <div className='bg-gray-100    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row  xl:text-left  xl:gap-x-[40px] xl:pb-0    '>
+        <div className='    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row  xl:text-left  xl:gap-x-[40px] xl:pb-0    '>
            
         <div className='flex-1 center mx-auto' data-aos='zoom-in-left'>
             <img className="border-white xl:max-h-[500px] max-h-[700px]" src={mandapam}  alt='' />
           </div>
           <div className='flex-1 '>
             <p
-              className='md:px-12 pt-4  text-left mx-auto'
+              className='md:px-12 pt-4 text-justify  mx-auto'
             >
            Pondicherry ( or Puducherry), a French colonial settlement in India until 1954, is now a Union Territory town bounded by the south eastern Tamil Nadu state. It’s French legacy is preserved in it’s French quarter, with tree-lined streets, mustard coloured colonial villas and chic boutiques. The town offers a unique experience with its mix of modern heritage and spiritual culture. A sea side promenade runs along the Bay of Bengal and passes several statues, including a four metre high Gandhi memorial. Heritage is one the most precious gift, Puducherry has been offering to it’s tourists and visitors. The coastal town of Puducherry with the French ambience is known for the serene atmosphere. The Eglise de Notre Dame des Anges, Place De Gouvernement, French War Memorial, Sri Manakula Vinayakar Temple, Serinity beach, Chunnambar and Paradise Beach Boat house are some of the major tourist attractions in and around Puducherry. Sri Aurobindo Ashram and the nearby Auroville International Township lend unique spiritual flavour to the city.
             </p>
@@ -47,31 +59,31 @@ const Venue = ()=>{
     </section>
 
     <section
-      className='my-[5px] '
+      className='my-[5px] pb-12'
       id="#About"
 
     >
-      <div className='container mx-auto bg-gray-100'>
+      <div className='container rounded-xl mx-auto bg-gradient-to-br from-blue-500 to-blue-200'>
            
 
-      <h1 className="text-3xl pl-4 font-bold text-blue-700 text-left py-4">INSTIUTION</h1>
+      <h1 className="text-3xl pl-4 font-bold text-white text-left py-4">UNIVERISTY</h1>
 
 
-<div class="w-full max-w-[90%] mx-auto bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+<div class="w-full max-w-[90%] mx-auto  rounded-full h-2.5 mb-4 bg-gray-700">
   <div class="bg-green-600 h-2.5 rounded-full " style={{width: "30%"}}></div>
 </div>
 
 
-        <div className='bg-gray-100    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row  xl:text-left  xl:gap-x-[40px] xl:pb-0    '>
+        <div className='   min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row  xl:text-left  xl:gap-x-[40px] xl:pb-0    '>
            
         <div className='flex-1 center mx-auto' data-aos='zoom-in-left'>
             <img className="border-white xl:max-h-[500px] max-h-[700px]" src={ptubuild}  alt='' />
           </div>
           <div className='flex-1 '>
             <p
-              className='md:px-12 pt-4  text-left mx-auto'
+              className='md:px-12 pt-4 text-justify  mx-auto'
             >
-           Pondicherry Engineering College is an institution wholly funded by the Union Territory of Puducherry. The college was started in the year 1984 under the 7th five year plan. It is an autonomous institution for the purposes of administration, staff recruitment and college development and is managed by a Board of Governors. The college campus is situated on the East Coast road at Pillaichavady, which is about 12 kms from the railway station and bus stand in Puducherry town. The campus sprawling over 210 acres is of great scenic beauty and it presence an excellent setting for the pursuit of studies and research.
+           Puducherry Technological University (PTU) is the first state University of Union Territory of Puducherry. It seamlessly came into existence on the 5 th September 2020 upon the elevation of erstwhile Pondicherry Engineering College - PEC (established in the year 1985 under the 7 th  five-year plan) with the University status. PTU began its journey with a position of pre-eminence and rightly stands as one of the finest engineering schools offering Bachelors, Masters and Doctoral study programmes in the prominent disciplines of Engineering/Technology, Science, Management and Entrepreneurship. Highly qualified faculty, diverse student population from across the country, best-of-breed infrastructure and an expansive campus sprawling over 185.8 acres of luscious green landscape on the shores of tantalizing Bay of Bengal present a vibrant ecosystem for the pursuit of intellectual excellence. Thirty-six years on since its original inception, PTU has built a legacy for itself and stands in good stead in terms of discernible academic parameters. NIRF, MHRD, Govt. of India has ranked PTU at 150 under the category of engineering education. PTU alumni are spread far and wide across the globe holding eminent positions in top global Corporates, Universities and Civil Services. Some of them own successful enterprises in India and abroad. Such accomplishments stand testimony to the quality of education we have been offering from the classrooms of PTU.
             </p>
           </div>
         </div>
@@ -80,29 +92,29 @@ const Venue = ()=>{
     </section>
 
     <section
-      className='my-[5px] '
+      className='my-[5px] pb-12'
       id="#About"
 
     >
-      <div className='container mx-auto bg-gray-100'>
+      <div className='container rounded-xl mx-auto bg-gradient-to-br from-blue-500 to-blue-200'>
            
 
-      <h1 className="text-3xl pl-4 font-bold text-blue-700 text-left py-4">DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING</h1>
+      <h1 className="text-3xl pl-4 font-bold text-white text-left py-4">DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING</h1>
 
 
-<div class="w-full max-w-[90%] mx-auto bg-gray-200 rounded-full h-4 mb-4 dark:bg-gray-700">
+<div class="w-full max-w-[90%] mx-auto  rounded-full h-4 mb-4 bg-gray-700">
   <div class="bg-green-600 h-4 rounded-full " style={{width: "60%"}}></div>
 </div>
 
 
-        <div className='bg-gray-100    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row  xl:text-left  xl:gap-x-[40px] xl:pb-0    '>
+        <div className='    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row  xl:text-left  xl:gap-x-[40px] xl:pb-0    '>
            
         <div className='flex-1 center mx-auto' data-aos='zoom-in-left'>
             <img className="border-white xl:max-h-[500px] max-h-[700px]" src={ece}  alt='' />
           </div>
           <div className='flex-1 '>
             <p
-              className='md:px-12 pt-4  text-left mx-auto'
+              className='md:px-12 pt-4   text-justify mx-auto'
             >
           The Department of Electronics and Communication Engineering, since its inception in the year 1985, has been producing globally competitive engineering graduates. It is resourceful in terms of infrastructure and the state of the art facilities to pursue academic studies and research in niche areas of technology. The highly qualified and experienced faculties are one of the most significant features of the department. The department commenced to offer its first M.Tech degree program in the year 1990 and second M.Tech degree program on Wireless Communication technologies in the year 2006. Over the years, the department has matured into the QIP research centre producing Ph.D. Graduates in different specialisations of Electronics and Communication Engineering.
             </p>
@@ -117,12 +129,12 @@ const Venue = ()=>{
       id="#About"
 
     >
-      <div className='container mx-auto'>
-        <div className='bg-gray-100    pb-12 flex flex-col    '>
+      <div className='container rounded-xl mx-auto bg-white'>
+        <div className='   pb-12 flex flex-col    '>
             <div className="">
-          <div className='flex-1 bg-blue-200 '>
-            <h2 className='h2 mb-10 px-4 pb-4 pt-2 font font-black text-blue-800 text-md' >
-            REACHING PONDICHERRY ENGINEERING COLLEGE
+          <div className='flex-1 rounded-tl-xl rounded-tr-xl bg-blue-500'>
+            <h2 className='h2 mb-10 px-4 py-3  font font-black text-white text-lg' >
+            REACHING PUDUCHERRY TECHNOLOGICAL UNIVERSITY
             </h2>
             </div>
             <p
@@ -132,7 +144,7 @@ const Venue = ()=>{
             <ul className="list-disc pl-10">
                 <li className="py-3 mx-auto ">Through East Coast Road, about 120 Kms to the south of Chennai</li>
                 <li className="py-3 mx-auto ">Through GST Road, reach Pondicherry through Tindivanam and proceed towards Rajiv Gandhi Statue.</li>
-                <li className="py-3 mx-auto ">Take a right turn, then proceed straight towards Pondicherry Engineering College.</li>
+                <li className="py-3 mx-auto ">Take a right turn, then proceed straight towards Puducherry Technological University.</li>
             </ul>
             </p>
 
@@ -155,15 +167,15 @@ const Venue = ()=>{
     {/* Location */}
 
     <section
-      className='my-[20px] '
+      className='my-[20px] py-12 '
       id="#About"
 
     >
-      <div className='container mx-auto'>
-        <div className='bg-gray-100 pb-12 flex flex-col'>
+      <div className='container rounded-xl mx-auto bg-white'>
+        <div className=' pb-12 flex flex-col'>
             <div className="">
-          <div className='flex-1 bg-blue-500 '>
-            <h2 className='h2 mb-10 px-4 pb-4 pt-2 font font-black text-white text-md' >
+          <div className='flex-1 rounded-tl-xl rounded-tr-xl bg-blue-500 '>
+            <h2 className='h2 mb-10 px-4 py-3 font font-black text-white text-lg' >
             LOCATION
             </h2>
             </div>
@@ -180,7 +192,7 @@ const Venue = ()=>{
 
 
              
-
+    </div>
         </div>
     )
 }

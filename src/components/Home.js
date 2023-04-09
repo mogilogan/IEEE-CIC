@@ -20,11 +20,11 @@ const Home  = ()=>{
             
 
     <section
-      className='my-[5px] pt-10 '
+      className='my-[5px] py-10 '
       id="#About"
 
     >
-      <div className='container rounded-3xl  mx-auto bg-gradient-to-br from-blue-900  to-blue-400'>
+      <div className='container  rounded-3xl  mx-auto bg-gradient-to-br from-blue-900  to-blue-400'>
       {/* <marquee className="py-5"><span className="text-xl  text-yellow-600"> Accepted and Registered papers of CIC 2016 will be published in ESCI-IP&Sc Thomson Reuters-Web of Science, Scopus & Anna Univ-Annex-II International Journals. Substantially Extended Versions of High Quality Papers will be considered for publication in Special Issue of Int. J. of Advanced Intelligence Paradigms, Inderscience, AEU Int.J of E&C, Elsevier* and Int.J. of Ambient Computing & Intelligence, IGI-Global. See Publications for more details.
             </span></marquee> */}
            
@@ -67,28 +67,28 @@ const Home  = ()=>{
           <div className='flex-1 '>
            
             <p
-              className=' pt-6 md:px-12 text-gray-100  text-left mx-auto'
+              className=' pt-6 text-justify md:px-12 text-gray-100  text-left mx-auto'
             >
-   CIC 2023 is organized by Department of Electronics & Communication Engineering, Puducherry Technological University, Puducherry, India on 7th and 8th , December  2023. The two day conference will include Plenary Talk, Key note Lectures, Paper Presentations and Poster Presentations.
+   CIC 2023 is organized by the Department of Electronics & Communication Engineering, Puducherry Technological University, Puducherry, India on 7<sup>th</sup> and 8<sup>th</sup> , December  2023. The two day conference will include Plenary Talks, Key note Lectures, Paper Presentations and Poster Presentations.
             </p>
             <p
-              className='md:px-12 pt-4 text-gray-100 text-left mx-auto'
+              className='md:px-12 text-justify pt-4 text-gray-100 text-left mx-auto'
             >
            CIC 2023 aims to bring out the contemporary developments and evolving theories, methods and applications of computational intelligence in diverse fields. CIC 2023 will provide a platform  for the scientific community and industry across the world to present their research findings, explore new directions in computational intelligence, probabilistic and statistical models to solve the ever growing challenges in the society.
             </p>
             <p
-              className='md:px-12 pt-4 text-gray-100  text-left mx-auto'
+              className='md:px-12 text-justify pt-4 text-gray-100  text-left mx-auto'
             >
            CIC 2023 lays emphasis on computational intelligence techniques such as neural networks, fuzzy systems, evolutionary algorithms, hybrid intelligent systems, uncertain reasoning techniques, and other machine learning methods and how they could be applied for decision making and problem solving in various disciplines namely, wireless communication and networks, intelligent  healthcare systems , intelligent transport systems, robotics and automation, precision agriculture, information security systems, environmental monitoring, education and entertainment.
             </p>
             <p
-              className='md:px-12 pt-4 text-gray-100  text-left mx-auto'
+              className='md:px-12 text-justify pt-4 text-gray-100  text-left mx-auto'
             >
 CIC 2023 is to be conducted in HYBRID mode (Physical and Online).
 Authors of the accepted papers who are unable to attend the conference in person can present their papers online and attend an interactive virtual conference.
             </p>
             <p
-              className='md:px-12 py-4 text-gray-100  text-left mx-auto'
+              className='md:px-12 text-justify py-4 text-gray-100  text-left mx-auto'
             >Authors are invited to contribute original research papers for electronic submission  via the Microsoft CMT link ( will be provided shortly).
             </p>
           </div>
@@ -96,24 +96,7 @@ Authors of the accepted papers who are unable to attend the conference in person
         
       </div>
 
-      <div className="py-6 ">
-        <div className='container bg-gradient-to-tr from-blue-900  to-blue-400 rounded-xl   mx-auto '>
-      <h2 className='h2 mb-5 text-left px-4 pt-2 font font-black text-yellow-400 text-xl' >
-            SPONSORS
-            </h2>
-        <div className=' rounded-bl-xl rounded-br-xl  flex flex-col text-left'>
-          <div className='flex-1 '>
-          
-            
-            <p
-              className='px-6 py-6 text-gray-200 text-left mx-auto'
-            >
-         CIC 2023 is funded by the Technical Education Quality Improvement Programme (TEQIP) Phase-II . TEQIP is a project of the National Project Implementation Unit (NPIU) , of Ministry of Human Resource Development of the Govt. of India for implementation of World Bank Assisted Projects in Technical Education with an objective of strengthening institutions in the country and scaling-up postgraduate education and demand-driven Research & Development and Innovation.
-            </p>
-          </div>
-        </div>
-        </div>
-      </div>
+      
       
      
       
