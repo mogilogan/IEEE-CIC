@@ -542,14 +542,7 @@ export const callfp1 ={
       description1:
         'SET, Dhanalakshmi Srinivasan University, Tiruchirappalli University',
     },
-    {
-
-      Name: 'Dr.B.Revathi alias Ponmozhi',
-      description:
-        'Professor/ECE',
-      description1:
-        'SET, Dhanalakshmi Srinivasan University, Tiruchirappalli University',
-    },
+    
     {
 
       Name: 'Dr. S. Arunmozhi',

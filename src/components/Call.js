@@ -16,7 +16,7 @@ const Call  = ()=>{
 
     >
       <div className='container mx-auto '>
-        <div className=' pb-12 flex flex-col  shadow-dark-neumorphism-xl rounded-xl   bg-emerald-500 '>
+        <div className=' pb-12 flex flex-col  shadow-dark-neumorphism-xl rounded-xl   bg-emerald-700 '>
           <div className='flex-1 '>
             <h2 className='h2 bg-emerald-900 rounded-tl-xl rounded-tr-xl mb-10 px-4 py-2 font font-black text-gray-300 text-xl' >
             CONFERENCE TRACKS
@@ -474,7 +474,7 @@ const Call  = ()=>{
     >
 
     <div className="pb-6 ">
-        <div className='container bg-emerald-500 rounded-xl   mx-auto '>
+        <div className='container bg-emerald-700 rounded-xl   mx-auto '>
       <h2 className='h2 mb-4 px-4 pt-2 font font-black rounded-tl-xl rounded-tr-xl bg-emerald-900 pb-3 text-white text-xl' >
             CONFERENCE PUBLICATIONS
             </h2>
