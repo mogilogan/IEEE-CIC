@@ -66,7 +66,7 @@ const Venue = ()=>{
       <div className='container rounded-xl mx-auto bg-gradient-to-br from-blue-500 to-blue-200'>
            
 
-      <h1 className="text-3xl pl-4 font-bold text-white text-left py-4">UNIVERISTY</h1>
+      <h1 className="text-3xl pl-4 font-bold text-white text-left py-4">PUDUCHERRY TECHNOLOGICAL UNIVERSITY</h1>
 
 
 <div class="w-full max-w-[90%] mx-auto  rounded-full h-2.5 mb-4 bg-gray-700">
@@ -83,7 +83,7 @@ const Venue = ()=>{
             <p
               className='md:px-12 pt-4 text-lg text-justify  mx-auto'
             >
-           Puducherry Technological University (PTU) is the first state University of Union Territory of Puducherry. It seamlessly came into existence on the 5 th September 2020 upon the elevation of erstwhile Pondicherry Engineering College - PEC (established in the year 1985 under the 7 th  five-year plan) with the University status. PTU began its journey with a position of pre-eminence and rightly stands as one of the finest engineering schools offering Bachelors, Masters and Doctoral study programmes in the prominent disciplines of Engineering/Technology, Science, Management and Entrepreneurship. Highly qualified faculty, diverse student population from across the country, best-of-breed infrastructure and an expansive campus sprawling over 185.8 acres of luscious green landscape on the shores of tantalizing Bay of Bengal present a vibrant ecosystem for the pursuit of intellectual excellence. Thirty-six years on since its original inception, PTU has built a legacy for itself and stands in good stead in terms of discernible academic parameters. NIRF, MHRD, Govt. of India has ranked PTU at 150 under the category of engineering education. PTU alumni are spread far and wide across the globe holding eminent positions in top global Corporates, Universities and Civil Services. Some of them own successful enterprises in India and abroad. Such accomplishments stand testimony to the quality of education we have been offering from the classrooms of PTU.
+Puducherry Technological University (PTU) is the first state University of Union Territory of Puducherry. It seamlessly came into existence on the 5<sup></sup> September 2020 upon the elevation of erstwhile Pondicherry Engineering College - PEC (established in the year 1985 under the 7 th  five-year plan) with the University status. PTU began its journey with a position of pre-eminence and rightly stands as one of the finest engineering schools offering Bachelors, Masters and Doctoral study programmes in the prominent disciplines of Engineering/Technology, Science, Management, Entrepreneurship. Highly qualified faculty, diverse student population from across the country, best-of-breed infrastructure and an expansive campus sprawling over 185.8 acres of luscious green landscape on the shores of tantalizing Bay of Bengal present a vibrant ecosystem for the pursuit of intellectual excellence. Thirty-six years on since its original inception, PTU has built a legacy for itself and stands in good stead in terms of discernible academic parameters. NIRF, MHRD, Govt. of India has ranked PTU at 150 under the category of engineering education. PTU alumni are spread far and wide across the globe holding eminent positions in top global Corporates, Universities and Civil Services. Some of them own successful enterprises in India and abroad. Such accomplishments stand testimony to the quality of education we have been offering from the classrooms of PTU.
             </p>
           </div>
         </div>

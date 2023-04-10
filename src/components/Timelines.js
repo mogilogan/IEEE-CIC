@@ -25,25 +25,25 @@ const Timelines  = ()=>{
   <thead>
     <tr className="hover:bg-red-200 " >
       <th class="border-r py-2 px-2 border-slate-400   ">Submission of Full Paper</th>
-      <td class=" py-2 px-2   ">15.07.2016</td>
+      <td class=" py-2 px-2   ">07.09.2023</td>
     </tr>
   </thead>
   <tbody>
     <tr className="hover:bg-red-200 ">
     <th class="border py-2 px-2 border-slate-400   ">Notification of Acceptance</th>
-      <td class="border py-2 px-2 border-slate-400  ">30.08.2016</td>
+      <td class="border py-2 px-2 border-slate-400  ">15.10.2023</td>
     </tr>
     <tr className="hover:bg-red-200 ">
     <th class="border py-2 px-2 border-slate-400   ">Registration and Camera Ready</th>
-      <td class="border py-2 px-2 border-slate-400  ">05.09.2016(Early bid)</td>
+      <td class="border py-2 px-2 border-slate-400  ">26.10.2023(Early bid)</td>
     </tr>
     <tr className="hover:bg-red-200 ">
     <th class="border py-2 px-2 border-slate-400   ">Copy Submission</th>
-      <td class="border py-2 px-2 border-slate-400  ">10.09.2016(Late)</td>
+      <td class="border py-2 px-2 border-slate-400  ">01.11.2023(Late)</td>
     </tr>
     <tr className="hover:bg-red-200 ">
     <th class=" py-2 px-2 border-slate-400   ">Conference Dates</th>
-      <td class="border-l py-2 px-2 border-slate-400  ">19.10.2016 & 20.10.2016</td>
+      <td class="border-l py-2 px-2 border-slate-400  ">07.12.2023 & 08.12.2023</td>
     </tr>
   </tbody>
   

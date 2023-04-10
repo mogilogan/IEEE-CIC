@@ -21,7 +21,7 @@ function App() {
       <div className="flex-grow">
       <Routes>
         <Route exact path='/' element={<Home/>} />
-        <Route exact path='/contact' element={<Contact/>} />
+        <Route exact path='/:contact' element={<Contact/>} />
         <Route exact path='/call' element={<Call/>} />
         <Route exact path='/committees' element={<Committees/>} />
         <Route exact path='/paper' element={<Paper/>} />

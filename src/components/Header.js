@@ -8,19 +8,19 @@ const Header  = ()=>{
   return (
     <div>
     <section class="bg-[url('/src/components/assests/headerbg.jpg')]   flex space-x-4">
-      <img className='max-w-lg max-h-28 md:max-h-40  mx-auto' alt='logo' src={ptulogo}/>
+      <img className='max-w-lg max-h-24 md:max-h-40  mx-auto' alt='logo' src={ptulogo}/>
       <div className='mx-auto py-4'>
 
       </div>
         <div class=" px-12 mx-auto max-w-7xl">
-          <div class="w-full mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
+          <div class="mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
             <h1 class="pb-4 text-lg md:text-2xl text-center font-extrabold leading-none tracking-normal text-slate-800  md:tracking-tight">
               <span className="text-white hidden sm:block">SECOND INTERNATIONAL CONFERENCE ON ADVANCES IN
 COMPUTATIONAL INTELLIGENCE AND COMMUNICATION</span>
             </h1>
             
-            <h1 className='py-4 text-center text-lg md:text-2xl font-black leading-none tracking-normal  md:text-xl md:tracking-tight'><span className="block w-full pb-4 text-transparent bg-clip-text text-lg md:text-3xl text-yellow-500 leading-12 bg-white lg:inline  ">CIC 2023<br/></span><span className='hidden sm:block text-white text-2xl lg:pt-4 lg:block'>
-Puducherry Technological University, Puducherry, 605014, India</span></h1>
+            <h1 className='py-4 text-center text-lg md:text-2xl font-black leading-none tracking-normal md:tracking-tight'><span className="block w-full pb-4 text-transparent bg-clip-text text-lg md:text-3xl text-yellow-500 leading-12 bg-white lg:inline  ">CIC 2023<br/>7<sup>th </sup> & 8<sup>th</sup> December 2023</span><span className='hidden sm:block text-white text-2xl lg:pt-4 lg:block'>
+Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
             
             <div class="mb-0 space-x-0 md:space-x-2 md:mb-8">
 
@@ -28,7 +28,7 @@ Puducherry Technological University, Puducherry, 605014, India</span></h1>
           </div>
         </div>
         <div className='py-4 sm:py-1'>
-        <img className='max-w-md md:max-h-40  sm:max-h-20 max-h-20 ' alt='ciclogo' src={logotrans}/>
+        <img className='max-w-md md:max-h-40 pr-2  sm:max-h-20 max-h-20 ' alt='ciclogo' src={logotrans}/>
         </div>
       
     </section >
@@ -117,7 +117,7 @@ Puducherry Technological University, Puducherry, 605014, India</span></h1>
             </button></a> 
            
            
-           <a href='/contact'> <button class="text-base  rounded-l-none  hover:scale-110 focus:outline-none flex justify-center px-4 py-2 rounded font-bold cursor-pointer 
+           <a href='/c?type=contact'> <button class="text-base  rounded-l-none  hover:scale-110 focus:outline-none flex justify-center px-4 py-2 rounded font-bold cursor-pointer 
         hover:bg-blue-700 hover:text-blue-200
         bg-blue-200 
         text-teal-700 
@@ -159,7 +159,7 @@ Puducherry Technological University, Puducherry, 605014, India</span></h1>
   <a href='/timelines' class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"> <button type="button" >
     TIMELINES
   </button></a>
-  <a href='/contact' class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"> <button type="button" >
+  <a href='/c?type=contact' class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"> <button type="button" >
     CONTACT
   </button></a>
     </div>

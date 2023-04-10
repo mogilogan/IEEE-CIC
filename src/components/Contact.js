@@ -1,21 +1,13 @@
 import React from "react";
+import { useParams } from 'react-router-dom';
+
 
 import ButtonMailto from "./ButtonMaitto";
 
 const Contact  = ()=>{
-  
-  
-  const sendmail=()=>{
-    var link = "mailto:cic@ptuniv.edu.in"
-    + "?cc=myCCaddress@example.com"
-    + "&subject=" + encodeURIComponent("This is my subject")
-    + "&body=" + encodeURIComponent(document.getElementById('myText').value)
-;
-
-window.location.href = link;
-  }
+ 
     return(
-
+      
       
         <div>
           

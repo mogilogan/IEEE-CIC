@@ -41,7 +41,7 @@ const Registrations  = ()=>{
     <th className="border border-slate-700">Early Bird*</th>
     <th className="border py-2 px-4 border-slate-700">Late</th>
     <th className="border py-2  border-slate-700">Early Bird*</th>
-    <th className="border py-2  border-slate-700">Late/ On-Site</th>
+    <th className="border py-2  border-slate-700">Late</th>
   </tr>
   <tr className="text-center text-lg hover:bg-yellow-500">
     <td className="border py-3 border-slate-700">Industry Participants</td>
@@ -97,7 +97,7 @@ const Registrations  = ()=>{
     <th className="border border-slate-700">Early Bird*</th>
     <th className="border px-4  py-2 border-slate-700">Late</th>
     <th className="border border-slate-700">Early Bird*</th>
-    <th className="border border-slate-700">Late/ On-Site</th>
+    <th className="border border-slate-700">Late</th>
   </tr>
   <tr className="text-center text-lg hover:bg-yellow-500">
     <td className="border py-3 border-slate-700">Industry Participants</td>
