@@ -31,16 +31,18 @@ const Contact  = ()=>{
                CIC 2023
             </p>
 
-            <p className='px-12 text-xl   text-left mx-auto'>CHAIRS:</p>
 
-            <p className='px-12 pt-2 text-lg text-blue-700  text-left mx-auto'>
+            <p className='px-12 pt-2 text-lg text-blue-700 text-center  mx-auto'>
            <b>Dr. Gnanou Florence Sudha</b>
             </p>
-            <p className='px-12 pb-4 text-lg text-blue-700 text-left mx-auto'>
+            <p className='px-12 pb-1 text-lg text-blue-700 text-center mx-auto'>
             <b>Dr. R. Gunasundari</b>
             </p>
 
-            <p className='px-12  text-left mx-auto'>
+            <p className='px-12 text-xl pb-6 text-center   mx-auto'>ORGANIZING CHAIRS</p>
+
+
+            <p className='px-12 pb-4  text-left mx-auto'>
               Department of Electronics & Communication Engineering
             </p>
             <p className='px-12   text-left mx-auto'>
