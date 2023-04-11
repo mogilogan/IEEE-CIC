@@ -1,5 +1,7 @@
 import React from "react";
 
+import IEEETemplate from './assests/IEEETemplate..doc';
+
 const Paper  = ()=>{
     return(
         <div className="pb-12">
@@ -14,7 +16,7 @@ const Paper  = ()=>{
       <div className='container py-8 mx-auto'>
         <div className=' bg-gradient-to-br from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col    '>
           <div className='flex-1 text-gray-100 '>
-            <h2 className='h2 mb-10 px-4 pt-2 text-yellow-500 font font-black text-blue-900 text-2xl' >
+            <h2 className='h2 mb-10 px-4 pt-2 text-yellow-500 font font-black text-2xl' >
             INFORMATION TO AUTHORS:
             </h2>
             <p
@@ -25,7 +27,7 @@ const Paper  = ()=>{
             <p
               className='px-12 pt-4 text-xl  text-left mx-auto'
             >
-            Kindly ensure that the paper is formatted as per IEEE template (not exceeding 6 pages) including figures and references. Click <a href="" className="text-xl text-slate-800">here</a> for IEEE  template format.
+            Kindly ensure that the paper is formatted as per IEEE template (not exceeding 6 pages) including figures and references. Click <a href={IEEETemplate} download={IEEETemplate} className="text-xl text-slate-800">here</a> for IEEE  template format.
             </p>
             <p
               className='px-12 pt-4 text-xl  text-left mx-auto'
