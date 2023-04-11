@@ -1,5 +1,4 @@
 import React from "react";
-import { useParams } from 'react-router-dom';
 
 
 import ButtonMailto from "./ButtonMaitto";
@@ -27,9 +26,18 @@ const Contact  = ()=>{
             </h2>
             </div>
             <p
-              className='px-12 font-bold text-xl pb-10  text-left mx-auto'
+              className='px-12 font-bold text-xl pb-6  text-left mx-auto'
             >
                CIC 2023
+            </p>
+
+            <p className='px-12 text-xl   text-left mx-auto'>CHAIRS:</p>
+
+            <p className='px-12 pt-2 text-lg text-blue-700  text-left mx-auto'>
+           <b>Dr. Gnanou Florence Sudha</b>
+            </p>
+            <p className='px-12 pb-4 text-lg text-blue-700 text-left mx-auto'>
+            <b>Dr. R. Gunasundari</b>
             </p>
 
             <p className='px-12  text-left mx-auto'>
