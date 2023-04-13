@@ -109,6 +109,7 @@ const Committees = ()=>{
 
               <div className="py-2">
               <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+
               <div class="px-6 py-2">
               <div class="font-bold text-xl mb-2">Executive Committee</div>
                  <p class="text-gray-100 text-center text-base">
@@ -118,6 +119,16 @@ const Committees = ()=>{
               <div class="px-6 text-center   pb-2">
               <span class="inline-block bg-gray-200  rounded-xl px-3 py-1 text-sm font-semibold  mr-2 mb-2">Registrar PTU</span>
               </div>
+
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Dr.N.Sreenath
+                 </p>
+              </div>
+              <div class="px-6 text-center   pb-2">
+              <span class="inline-block bg-gray-200  rounded-xl px-3 py-1 text-sm font-semibold  mr-2 mb-2">Professor CSE PTU</span>
+              </div>
+
               <div class="px-6 py-2">
                  <p class="text-gray-100 text-center text-base">
                  Dr. G. Nagarajan
