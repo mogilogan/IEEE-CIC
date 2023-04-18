@@ -1,37 +1,28 @@
 import React, { useEffect, useState } from "react";
 import Icon from "./Icon";
 import ButtonMailto from "./ButtonMaitto";
+import { useSearchParams } from "react-router-dom";
 
 const Footer = ()=>{
 
   const [name,Setname]=useState(false);
-   
-  const queryParameters = new URLSearchParams(window.location.search);
-  const type = queryParameters.get("type");
-  console.log(type);
+
+  const [searchParams, setSearchParams] = useSearchParams();
+
+ 
+ 
+  
 
   const sendmail = ()=>{
      
     window.open("https://maps.google.com?q="+12.012534575561443+","+79.85718055294289 );
   }
 
-  useEffect(() => {
-    // Update the document title using the browser API
-    if(type === "contact"){
-      Setname(true);
-    }else {
-      Setname(false);
-    }
-  },[type]);
-
+ 
 
     
     return(
       <div >
-        {/* <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className="relative block">
-        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="fill-blue-800"></path>
-    </svg>
-      */}
       <section className="relative w-full h-[30vh] bg-white overflow-hidden">
   <div class="absolute b-0 l-0 w-full h-[100px] bg-[url('../public/wave.png')] bg-[length:1000px_100px] air1"></div>
   <div class="absolute b-0 l-0 w-full h-[100px] bg-[url('../public/wave.png')] bg-[length:1000px_100px]   air2"></div>
@@ -63,13 +54,11 @@ Puducherry Technological University <br/>PUDUCHERRY<br/> INDIA
     </div>
   </div>
   <div className="bg-blue-900  p-4 text-center text-3xl text-yellow-500">
+  <div></div>
     <span><b>CIC 2023</b></span>
-    {name?
-    
-    <span className="text-[20px] text-blue-300"><br/>Created by MOGINDER E - ECE 3rd Year</span>
-    :
-    <p></p>
-    }
+   
+    <span className="text-[20px] text-blue-300"><br/>{searchParams.get('type')}</span>
+   
     
   </div>
  

@@ -1,7 +1,9 @@
 {
+
   "name": "ieee",
   "version": "0.1.0",
   "private": true,
+  "homepage":"./",
   "dependencies": {
     "@emotion/styled": "^11.10.6",
     "@headlessui/react": "^1.7.13",

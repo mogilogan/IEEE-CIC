@@ -15,24 +15,27 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="flex flex-col h-auto justify-between" >
-      <div>
+      
       <Header/>
-      </div>
+      
       <div className="flex-grow">
+      
       <Routes>
-        <Route exact path='/' element={<Home/>} />
-        <Route exact path='/:contact' element={<Contact/>} />
+        <Route  path='/' element={<Home/>} />
+        <Route exact path='/contact' element={<Contact/>} />
         <Route exact path='/call' element={<Call/>} />
         <Route exact path='/committees' element={<Committees/>} />
         <Route exact path='/paper' element={<Paper/>} />
         <Route exact path='/registrations' element={<Registrations/>} />
         <Route exact path='/timelines' element={<Timelines/>} />
         <Route exact path='/venue' element={<Venue/>} />
+        
       </Routes>
+     
       </div>
-      <div>
-      <Footer/>
-      </div>
+      
+      <Footer  />
+     
     </div>
   );
 }
