@@ -135,17 +135,19 @@ const Registrations  = ()=>{
 <h1 className="mx-4 "><b> Late payments must be made before 01.11.2023</b></h1>
 
 
+<h1 className="text-center  text-2xl mx-auto pt-8"><b>PAYMENT DETAILS</b></h1>
+<h1 className="text-center text-lg mx-auto pt-4"><b>Registration fee payment  has to be done through Online</b></h1>
 
 <div className="pb-6 ">
 <div className='container mx-auto '>
 <div className=' pt-6  mx-auto text-left'>
 <table className="border-collapse rounded-xl max-w-[690px] bg-gradient-to-br from-red-500 to-red-300  mx-auto border-slate-700">
   <tr className="text-center text-lg">
-    <th className="border-b py-2 border-slate-700">In favour of:</th>
+    <th className="border-b py-2 border-slate-700">In Favour Of:</th>
     <th className=" border-l border-b border-slate-700" >CIC - Computational Intelligence and Communication</th>
   </tr>
   <tr className="text-center text-lg hover:bg-teal-500">
-    <td className="border-r border-b py-3 border-slate-700">Name of Bank : </td>
+    <td className="border-r border-b py-3 border-slate-700">Name of Bank</td>
     <td className="border-b border-slate-700">CANARA BANK</td>
   </tr>
   <tr className="text-center text-lg hover:bg-teal-500">
