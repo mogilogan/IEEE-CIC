@@ -119,7 +119,7 @@ Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
             </button></Link>
            
            
-            <Link to="/contact?type=Created%20by%20MOGINDER%20E,%20ECE%20-%203rd%20Year"> <button class="text-base  rounded-l-none  hover:scale-110 focus:outline-none flex justify-center px-4 py-2 rounded font-bold cursor-pointer 
+            <Link to="/contact?type=Website%20designed%20by%20MOGINDER.E,%20ECE%20-%203rd%20Year"> <button class="text-base  rounded-l-none  hover:scale-110 focus:outline-none flex justify-center px-4 py-2 rounded font-bold cursor-pointer 
         hover:bg-blue-700 hover:text-blue-200
         bg-blue-200 
         text-teal-700 

@@ -42,7 +42,7 @@ const Committees = ()=>{
                  </p>
               </div>
               <div class="px-6 text-center   pb-2">
-              <span class="inline-block bg-gray-200  rounded-xl px-3 py-1 text-sm font-semibold  mr-2 mb-2">Vice-Chancellor, Puducherry, Technological University Puducherry</span>
+              <span class="inline-block bg-gray-200  rounded-xl px-3 py-1 text-sm font-semibold  mr-2 mb-2">Vice-Chancellor, Technological University Puducherry, Puducherry</span>
               </div>
               </div>
               </div>
@@ -56,7 +56,7 @@ const Committees = ()=>{
                  </p>
               </div>
               <div class="px-6 text-center   pb-2">
-              <span class="inline-block bg-gray-200  rounded-xl px-3 py-1 text-sm font-semibold  mr-2 mb-2">Professor &amp; Head ECE PTU Puducherry</span>
+              <span class="inline-block bg-gray-200  rounded-xl px-3 py-1 text-sm font-semibold  mr-2 mb-2">Professor &amp; Head ECE PTU</span>
               </div>
               </div>
               </div>
