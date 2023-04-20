@@ -21,7 +21,7 @@ const Header  = ()=>{
 COMPUTATIONAL INTELLIGENCE AND COMMUNICATION</span>
             </h1>
             
-            <h1 className='py-4 text-center text-lg md:text-2xl font-black leading-none tracking-normal md:tracking-tight'><span className="block w-full pb-4 text-transparent bg-clip-text text-lg md:text-3xl text-yellow-500 leading-12 bg-white lg:inline  ">CIC 2023<br/>7<sup>th </sup> & 8<sup>th</sup> December 2023</span><span className='hidden sm:block text-white text-2xl lg:pt-4 lg:block'>
+            <h1 className='py-4 text-center text-lg md:text-2xl font-black leading-none tracking-normal md:tracking-tight'><span className="block w-full pb-4 text-transparent bg-clip-text sm:text-lg md:text-3xl text-yellow-500 leading-12 bg-white lg:inline  ">CIC 2023<br/>7<sup>th </sup> & 8<sup>th</sup> December 2023</span><span className='hidden sm:block text-white text-2xl lg:pt-4 lg:block'>
 Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
             
             <div class="mb-0 space-x-0 md:space-x-2 md:mb-8">

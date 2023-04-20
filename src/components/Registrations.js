@@ -136,7 +136,42 @@ const Registrations  = ()=>{
 
 
 
-
+<div className="pb-6 ">
+<div className='container mx-auto '>
+<div className=' pt-6  mx-auto text-left'>
+<table className="border-collapse rounded-xl max-w-[690px] bg-gradient-to-br from-red-500 to-red-300  mx-auto border-slate-700">
+  <tr className="text-center text-lg">
+    <th className="border-b py-2 border-slate-700">In favour of:</th>
+    <th className=" border-l border-b border-slate-700" >CIC - Computational Intelligence and Communication</th>
+  </tr>
+  <tr className="text-center text-lg hover:bg-teal-500">
+    <td className="border-r border-b py-3 border-slate-700">Name of Bank : </td>
+    <td className="border-b border-slate-700">CANARA BANK</td>
+  </tr>
+  <tr className="text-center text-lg hover:bg-teal-500">
+    <td className="border-r border-b py-3 border-slate-700">A/c. No.</td>
+    <td className=" border-slate-700">110113871262</td>
+  </tr>
+  <tr className=" text-center text-lg hover:bg-teal-500">
+    <td className="border-b py-3 border-slate-700">IFSC code</td>
+    <td className="border-b border-t border-l border-slate-700">CNRB0008441</td>
+  </tr>
+  <tr className="text-center text-lg hover:bg-teal-500">
+    <td className=" py-3 border-slate-700">MICR code</td>
+    <td className="border-l border-slate-700">605015004</td>
+  </tr>
+  <tr className="text-center text-lg hover:bg-teal-500">
+    <td className="border-b border-t border-r py-3 border-slate-700">SWIFT code</td>
+    <td className="border-b border-t border-slate-700">CNRBINBBBFD</td>
+  </tr>
+  <tr className="text-center text-lg hover:bg-teal-500">
+    <td className=" md:min-w-[300px] min-w-[160px] py-3 border-slate-700">Bank Address</td>
+    <td className="border-l border-slate-700">Puducherry Technological University (erstwhile Pondicherry Engineering College campus), Pillaichavadi, Puducherry - 605014</td>
+  </tr>
+</table>
+</div>
+</div>
+</div>
           
           </div>
 

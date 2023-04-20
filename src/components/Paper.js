@@ -57,10 +57,10 @@ const Paper  = ()=>{
   <li><p className='text-left py-2 mx-auto'>At least one author of an accepted paper must register and present his/her paper in conference.</p></li>
   <li><p className='text-left mx-auto py-2'>Additional pages per paper above limit will be charged.</p></li>
   <li><p className='text-left mx-auto py-2'>The CIC 2023 organisers regard plagiarism as a serious professional misconduct. All submissions will be screened for plagiarism and when identified, the submission by the same author will be rejected.</p></li>
-  <li><p className='text-left mx-auto py-2 text-white font-black'>The similarity content should not exceed 20%. Any model/figure/table /data used should be properly cited and prior permission should have been taken for copyrighted material.</p></li>
+  <li><p className='text-left mx-auto py-2 text-white font-black'>The similarity content should not exceed 10%. Any model/figure/table /data used should be properly cited and prior permission should have been taken for copyrighted material.</p></li>
   <li><p className='text-left mx-auto py-2'>A submission implies that the author intends to ultimately register the paper upon a favourable response from the conference organisers. </p></li>
   <li><p className='text-left mx-auto py-2'>Moreover CIC 2023 does not encourage withdrawals after the paper is accepted.</p></li>
-  <li><p className='text-left mx-auto py-2'>All papers must be submitted online via Microsoft CMT submission system only using link ( WILL BE PROVIDED SHORTLY)</p></li>
+  <li><p className='text-left mx-auto py-2'>All papers must be submitted online via Microsoft CMT submission system only using link - <a title="Microsoft CMT - CIC23" className="text-yellow-400 hover:text-slate-900" href=" https://cmt3.research.microsoft.com/CIC2023" target="_blank"> https://cmt3.research.microsoft.com/CIC2023</a></p></li>
   <li><p className='text-left mx-auto py-2'>The accepted regular papers are to be published in the Indexed conference proceedings published by reputed publishers.</p></li>
   <li><p className='text-left mx-auto py-2'>Best papers will be duly awarded.</p></li>
 
