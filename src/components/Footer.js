@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Icon from "./Icon";
 import ButtonMailto from "./ButtonMaitto";
 import { useSearchParams } from "react-router-dom";
 
 const Footer = ()=>{
 
-  const [name,Setname]=useState(false);
+
 
   const [searchParams, setSearchParams] = useSearchParams();
 

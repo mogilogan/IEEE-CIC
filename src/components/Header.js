@@ -4,6 +4,9 @@ import logotrans from './assests/logotrans.png';
 
 import {Link} from 'react-router-dom';
 
+import {RiTimeLine} from 'react-icons/ri';
+import {MdConnectWithoutContact} from 'react-icons/md'
+
 const Header  = ()=>{
 
     
@@ -114,7 +117,7 @@ Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
         border duration-200 ease-in-out 
         border-teal-600 transition">
                 <div class="flex leading-5 my-auto">
-                <svg xmlns="http://www.w3.org/2000/svg"  width="21"  fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16"> <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/> <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/> <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/> </svg>
+                  <RiTimeLine size={23} />
                     TIMELINES</div>
             </button></Link>
            
@@ -127,8 +130,7 @@ Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
         border duration-200 ease-in-out 
         border-teal-600 transition">
                 <div class="flex leading-5 my-auto">
-                <svg width="21"  viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M6 20.5C6 12.4919 12.4919 6 20.5 6H27.5C35.5081 6 42 12.4919 42 20.5C42 28.5081 35.5081 35 27.5 35H26.8V42C26.8 42 6 38.5 6 20.5ZM27.6914 12.4815C28.7211 13.1664 29.4977 14.2754 29.4977 15.7611C29.4977 17.3398 28.8609 18.4998 27.8298 19.2103C27.4025 19.5047 26.9427 19.6971 26.5 19.8236V21.3559C26.5 22.1844 25.8284 22.8559 25 22.8559C24.1716 22.8559 23.5 22.1844 23.5 21.3559V18.5586C23.5 17.769 24.1121 17.1147 24.8999 17.062C25.4539 17.0249 25.8743 16.9146 26.1276 16.74C26.2342 16.6665 26.3107 16.5823 26.3681 16.4677C26.4278 16.3486 26.4977 16.1339 26.4977 15.7611C26.4977 15.4485 26.3747 15.2088 26.0299 14.9794C25.6378 14.7186 25.0078 14.5265 24.2513 14.5025C23.5028 14.4787 22.776 14.625 22.2418 14.884C21.7049 15.1443 21.5087 15.4358 21.4533 15.6513C21.2472 16.4537 20.4297 16.9371 19.6273 16.731C18.825 16.5249 18.3416 15.7074 18.5476 14.905C18.8921 13.5637 19.8955 12.6875 20.9331 12.1845C21.9733 11.6802 23.1959 11.4674 24.3467 11.504C25.4895 11.5403 26.7089 11.828 27.6914 12.4815ZM25 29C26.1046 29 27 28.1046 27 27C27 25.8954 26.1046 25 25 25C23.8954 25 23 25.8954 23 27C23 28.1046 23.8954 29 25 29Z" fill="#333333"/> </svg>
-                    CONTACT</div>
+<MdConnectWithoutContact size={25}/>                    CONTACT</div>
             </button></Link>
         </div>
     </div>
