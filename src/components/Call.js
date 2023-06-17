@@ -480,7 +480,7 @@ const Call  = ()=>{
             </h2>
             <div className="">
             <ul class="list-disc text-gray-200 text-lg mx-auto text-left px-12">
-  <li><p className='text-left pb-5 mx-auto'>The CIC 2023 conference plans to include only quality papers with significant
+  <li><p className='text-left pb-5 mx-auto'>The ICACIC 2023 conference plans to include only quality papers with significant
 contributions. All submissions will be screened for plagiarism and all
 submitted papers will undergo a peer review process by the Technical
 Program Committee, coordinated by the Conference Organizing Committee.
