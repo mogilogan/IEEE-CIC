@@ -89,7 +89,7 @@ Authors of the accepted papers who are unable to attend the conference in person
             </p>
             <p
               className='md:px-12 text-justify text-lg py-4 text-gray-100  text-left mx-auto'
-            >Authors are invited to contribute original research papers for electronic submission  via the Microsoft CMT link <a title="Microsoft CMT - CIC23" className="text-yellow-400 hover:text-slate-900" href=" https://cmt3.research.microsoft.com/CIC2023" target="_blank"> https://cmt3.research.microsoft.com/CIC2023</a>
+            >Authors are invited to contribute original research papers for electronic submission via the Microsoft CMT link <a title="Microsoft CMT - CIC23" className="text-yellow-400 hover:text-slate-900" href=" https://cmt3.research.microsoft.com/CIC2023" target="_blank"> https://cmt3.research.microsoft.com/CIC2023</a>
             </p>
           </div>
         </div>
