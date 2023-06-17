@@ -1,6 +1,6 @@
 import React from 'react';
 import ptulogo from './assests/ptulogo.png';
-import logotrans from './assests/logotrans.png';
+import logotrans from './assests/logotransp.png';
 
 import {Link} from 'react-router-dom';
 
