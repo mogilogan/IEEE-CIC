@@ -144,7 +144,7 @@ const Registrations  = ()=>{
 <table className="border-collapse rounded-xl max-w-[690px] bg-gradient-to-br from-red-500 to-red-300  mx-auto border-slate-700">
   <tr className="text-center text-lg">
     <th className="border-b py-2 border-slate-700">In Favour of:</th>
-    <th className=" border-l border-b border-slate-700" >ICACIC - Computational Intelligence and Communication</th>
+    <th className=" border-l border-b border-slate-700" >Computational Intelligence and Communication</th>
   </tr>
   <tr className="text-center text-lg hover:bg-teal-500">
     <td className="border-r border-b py-3 border-slate-700">Name of Bank</td>
