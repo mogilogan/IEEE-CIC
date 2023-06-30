@@ -88,7 +88,7 @@ const Committees = ()=>{
               <div className="py-2">
               <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
               <div class="px-6 py-2">
-              <div class="font-bold text-xl mb-2">Conference chairs</div>
+              <div class="font-bold text-xl mb-2">Conference Chairs</div>
                  <p class="text-gray-100 text-center text-base">
                  Dr. Gnanou Florence Sudha
                  </p>
@@ -336,9 +336,7 @@ const Committees = ()=>{
   </tbody>
 </table>
 </div>
-          <div className=' mx-auto lg:ml-4'>
- 
-          </div>
+         
         </div>
         </div>
         </div>
@@ -347,7 +345,7 @@ const Committees = ()=>{
               <div className="py-2">
               <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
               <div class="px-6 py-2">
-              <div class="font-bold text-xl mb-2">Conference Execution Committees</div>
+              <div class="font-bold text-xl mb-2">Conference Execution Committee</div>
                  <p class="text-gray-100 text-center text-base">
                  Dr. D. Saraswady
                  </p>
@@ -460,6 +458,110 @@ const Committees = ()=>{
               </div>
               </div>
               </div>
+
+
+
+
+
+
+
+              <div className="py-2">
+              <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+              <div class="px-6 py-2">
+              <div class="font-bold text-xl mb-2">Students' Organizing Commitee</div>
+                 <p class="text-gray-100 text-center text-base">
+                 Naveen Kumar Pola
+                 </p>
+              </div>
+             
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Sri Saipriya R
+                 </p>
+              </div>
+             
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Sivashree I
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Nappinai
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Shiva sai
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Kattoju Hemanth
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Moginder
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Praveene R
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Krishna Teja Murikipudi
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 T C Adityaa
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Seshan
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Pranav N
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Ra. Srinethe
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Kailash
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Harshitha
+                 </p>
+              </div>
+              <div class="px-6 py-2">
+                 <p class="text-gray-100 text-center text-base">
+                 Seevaranjinee
+                 </p>
+              </div>
+              <div class="px-6 pt-2 pb-4">
+                 <p class="text-gray-100 text-center text-base">
+                 Nirmal Vardhan
+                 </p>
+              </div>
+             
+              </div>
+              </div>
+
+
+               
+
            
       </div>
       </div>

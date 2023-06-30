@@ -15,7 +15,29 @@ const Call  = ()=>{
       id="#About"
 
     >
+
+<div className="pb-6 ">
+        <div className='container bg-emerald-700 rounded-xl   mx-auto '>
+      <h2 className='h2 mb-4 px-4 pt-2 font font-black rounded-tl-xl rounded-tr-xl bg-emerald-900 pb-3 text-white text-xl' >
+            CONFERENCE PUBLICATIONS
+            </h2>
+            <div className="">
+            <ul class="list-disc text-gray-200 text-lg mx-auto text-left px-12">
+  <li><p className='text-left pb-2 mx-auto'>The IEEE ICACIC 2023 conference plans to include only quality papers with significant contributions. All submissions will be screened for plagiarism and all submitted papers will undergo a peer review process by the Technical Program Committee, coordinated by the Conference Organizing Committee. Each manuscript will be reviewed by a minimum of 2-3 reviewers.</p>
+  </li>
+  <li><p className='text-left py-2 mx-auto'>Accepted and Presented papers of IEEE ICACIC 2023 will be submitted for inclusion into IEEE Xplore Digital Library subject to meeting the IEEE Xplore’s scope and quality requirements.</p></li>
+  <li><p className='text-left py-2 mx-auto'>Best papers will be duly awarded.</p></li>
+  <li><p className='text-left py-2 mx-auto'>Extended works of authors of the best papers will be recommended for publication in Indexed Journals</p></li>
+
+</ul>
+</div>
+
+        </div>
+      </div>
+
+
       <div className='container mx-auto '>
+
         <div className=' pb-12 flex flex-col  shadow-dark-neumorphism-xl rounded-xl   bg-emerald-700 '>
           <div className='flex-1 '>
             <h2 className='h2 bg-emerald-900 rounded-tl-xl rounded-tr-xl mb-10 px-4 py-2 font font-black text-gray-300 text-xl' >
@@ -473,29 +495,7 @@ const Call  = ()=>{
 
     >
 
-    <div className="pb-6 ">
-        <div className='container bg-emerald-700 rounded-xl   mx-auto '>
-      <h2 className='h2 mb-4 px-4 pt-2 font font-black rounded-tl-xl rounded-tr-xl bg-emerald-900 pb-3 text-white text-xl' >
-            CONFERENCE PUBLICATIONS
-            </h2>
-            <div className="">
-            <ul class="list-disc text-gray-200 text-lg mx-auto text-left px-12">
-  <li><p className='text-left pb-5 mx-auto'>The ICACIC 2023 conference plans to include only quality papers with significant
-contributions. All submissions will be screened for plagiarism and all
-submitted papers will undergo a peer review process by the Technical
-Program Committee, coordinated by the Conference Organizing Committee.
-Each manuscript will be reviewed by a minimum of 2-3 reviewers. The
-accepted and registered regular papers is to be published in the conference
-proceedings published by reputed publishers with Indexing subject to the
-scope and quality requirements.</p>
-  </li>
-  <li><p className='text-left py-5 mx-auto'>Best papers will be duly awarded.</p></li>
-  <li><p className='text-left py-5 mx-auto'>Extended works of authors of the best papers will be recommended for publication in Indexed Journals</p></li>
-</ul>
-</div>
-
-        </div>
-      </div>
+   
    
 
     </section>

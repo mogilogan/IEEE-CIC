@@ -25,11 +25,11 @@ const Home  = ()=>{
 
     >
       <div className='container  rounded-3xl  mx-auto bg-gradient-to-br from-blue-900  to-blue-400'>
-      {/* <marquee className="py-5"><span className="text-xl  text-yellow-600"> Accepted and Registered papers of ICACIC 2016 will be published in ESCI-IP&Sc Thomson Reuters-Web of Science, Scopus & Anna Univ-Annex-II International Journals. Substantially Extended Versions of High Quality Papers will be considered for publication in Special Issue of Int. J. of Advanced Intelligence Paradigms, Inderscience, AEU Int.J of E&C, Elsevier* and Int.J. of Ambient Computing & Intelligence, IGI-Global. See Publications for more details.
+      {/* <marquee className="py-5"><span className="text-xl  text-yellow-600"> Accepted and Registered papers of IEEE ICACIC 2016 will be published in ESCI-IP&Sc Thomson Reuters-Web of Science, Scopus & Anna Univ-Annex-II International Journals. Substantially Extended Versions of High Quality Papers will be considered for publication in Special Issue of Int. J. of Advanced Intelligence Paradigms, Inderscience, AEU Int.J of E&C, Elsevier* and Int.J. of Ambient Computing & Intelligence, IGI-Global. See Publications for more details.
             </span></marquee> */}
            
 
-      <h1 className="text-3xl pl-4 font-bold text-gray-200 text-left py-4">ICACIC 2023</h1>
+      <h1 className="text-3xl pl-4 font-bold text-gray-200 text-left py-4">IEEE ICACIC 2023</h1>
         <div className='    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0    '>
            
         <div className='flex-1' data-aos='zoom-in-left'>
@@ -69,22 +69,22 @@ const Home  = ()=>{
             <p
               className=' pt-6 text-justify text-lg md:px-12 text-gray-100  text-left mx-auto'
             >
-   ICACIC 2023 is organized by the Department of Electronics & Communication Engineering, Puducherry Technological University, Puducherry, India on 7<sup>th</sup> and 8<sup>th</sup> , December  2023. The two day conference will include Plenary Talks, Key note Lectures, Paper Presentations and Poster Presentations.
+   IEEE ICACIC 2023 is organized by the Department of Electronics & Communication Engineering, Puducherry Technological University, Puducherry, India on 7<sup>th</sup> and 8<sup>th</sup> , December  2023. The two day conference will include Plenary Talks, Key note Lectures, Paper Presentations and Poster Presentations.
             </p>
             <p
               className='md:px-12 text-justify text-lg pt-4 text-gray-100 text-left mx-auto'
             >
-           ICACIC 2023 aims to bring out the contemporary developments and evolving theories, methods and applications of computational intelligence in diverse fields. ICACIC 2023 will provide a platform  for the scientific community and industry across the world to present their research findings, explore new directions in computational intelligence, probabilistic and statistical models to solve the ever growing challenges in the society.
+           IEEE ICACIC 2023 aims to bring out the contemporary developments and evolving theories, methods and applications of computational intelligence in diverse fields. IEEE ICACIC 2023 will provide a platform  for the scientific community and industry across the world to present their research findings, explore new directions in computational intelligence, probabilistic and statistical models to solve the ever growing challenges in the society.
             </p>
             <p
               className='md:px-12 text-justify text-lg pt-4 text-gray-100  text-left mx-auto'
             >
-           ICACIC 2023 lays emphasis on computational intelligence techniques such as neural networks, fuzzy systems, evolutionary algorithms, hybrid intelligent systems, uncertain reasoning techniques, and other machine learning methods and how they could be applied for decision making and problem solving in various disciplines namely, wireless communication and networks, intelligent  healthcare systems , intelligent transport systems, robotics and automation, precision agriculture, information security systems, environmental monitoring, education and entertainment.
+           IEEE ICACIC 2023 lays emphasis on computational intelligence techniques such as neural networks, fuzzy systems, evolutionary algorithms, hybrid intelligent systems, uncertain reasoning techniques, and other machine learning methods and how they could be applied for decision making and problem solving in various disciplines namely, wireless communication and networks, intelligent  healthcare systems , intelligent transport systems, robotics and automation, precision agriculture, information security systems, environmental monitoring, education and entertainment.
             </p>
             <p
               className='md:px-12 text-justify text-lg pt-4 text-gray-100  text-left mx-auto'
             >
-ICACIC 2023 is to be conducted in HYBRID mode (Physical and Online).
+IEEE ICACIC 2023 is to be conducted in HYBRID mode (Physical and Online).
 Authors of the accepted papers who are unable to attend the conference in person can present their papers online and attend an interactive virtual conference.
             </p>
             <p

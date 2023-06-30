@@ -102,7 +102,7 @@ const Registrations  = ()=>{
   <tr className="text-center text-lg hover:bg-yellow-500">
     <td className="border py-3 border-slate-700">Industry Participants</td>
     <td className="border border-slate-700">&#8377;9000</td>
-    <td className="border border-slate-700">&#8377;10,00</td>
+    <td className="border border-slate-700">&#8377;10,000</td>
     <td className="border border-slate-700">&#8377;9500</td>
     <td className="border border-slate-700">&#8377;10,000</td>
   </tr>

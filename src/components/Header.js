@@ -1,6 +1,8 @@
 import React from 'react';
 import ptulogo from './assests/ptulogo.png';
 import logotrans from './assests/logotransp.png';
+import ieeadva from './assests/ieeadva.png'
+import ieeemad from './assests/ieeemad.png'
 
 import {Link} from 'react-router-dom';
 
@@ -12,34 +14,52 @@ const Header  = ()=>{
     
   return (
     <div>
-    <section class="bg-[url('/src/components/assests/headerbg.jpg')]   flex space-x-4">
+    <section class="bg-[url('/src/components/assests/bgchange.png')] bg-contain bg-repeat-x  flex space-x-4">
+    <div className='pl-4 sm:py-1'>
       <img className='max-w-lg max-h-24 md:max-h-40  mx-auto' alt='logo' src={ptulogo}/>
+      <div className='pt-[30px]'>
+      <img className='max-w-md max-h-10 sm:max-h-16 md:max-h-[100px]  mx-auto' alt='logo' src={ieeadva}/>
+      </div>
+</div>
       <div className='mx-auto py-4'>
 
       </div>
         <div class=" px-12 mx-auto max-w-7xl">
           <div class="mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
-            <h1 class="pb-4 text-lg md:text-2xl text-center font-extrabold leading-none tracking-normal text-slate-800  md:tracking-tight">
-              <span className="text-white hidden sm:block">SECOND INTERNATIONAL CONFERENCE ON ADVANCES IN
+            <h1 class="pb-4  text-blue-800 text-lg md:text-2xl text-center font-extrabold leading-none tracking-normal   md:tracking-tight">
+              <span className=" hidden sm:block">IEEE SECOND INTERNATIONAL CONFERENCE ON ADVANCES IN
 COMPUTATIONAL INTELLIGENCE AND COMMUNICATION</span>
             </h1>
-            
-            <h1 className='py-4 text-center text-lg md:text-2xl font-black leading-none tracking-normal md:tracking-tight'><span className="block w-full pb-4 text-transparent bg-clip-text sm:text-lg md:text-3xl text-yellow-500 leading-12 bg-white lg:inline  ">ICACIC 2023<br/>7<sup>th </sup> & 8<sup>th</sup> December 2023</span><span className='hidden sm:block text-white text-2xl lg:pt-4 lg:block'>
+            <h1 className='py-4 text-center text-lg md:text-2xl font-black leading-none tracking-normal md:tracking-tight'><span className="block w-full pb-4 text-transparent bg-clip-text text-[20px] sm:text-lg md:text-3xl text-yellow-500 leading-12  lg:inline  ">IEEE ICACIC 2023<br/>7<sup>th </sup> & 8<sup>th</sup> December 2023</span><span className='hidden  text-blue-800 text-2xl lg:pt-4 lg:block'>
 Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
-            
+
             <div class="mb-0 space-x-0 md:space-x-2 md:mb-8">
 
             </div>
           </div>
         </div>
-        <div className='py-4 sm:py-1'>
-        <img className='max-w-md md:max-h-40 pr-2  sm:max-h-20 max-h-20 ' alt='ciclogo' src={logotrans}/>
-        </div>
+        <div className='py-4 items-right sm:py-1'>
+        <img className='max-w-md md:max-h-40   sm:max-h-20 max-h-20 ' alt='ciclogo' src={logotrans}/>
+        <div className='pt-10'>
+        <img className='max-w-md max-h-10 sm:max-h-16 md:max-h-[70px]  mx-auto' alt='logo' src={ieeemad}/>
+        
+        </div></div>
       
     </section >
+
+
+    <h1  className='text-xl text-center font-bold text-blue-800 sm:text-3xl  lg:block'>
+Technically Co-sponsored by<br/>IEEE Madras Section</h1>
+
+<h1  className='text-xl text-center font-bold py-4 sm:text-3xl  lg:block'>
+Conference ID: 59454</h1>
+
+<marquee className="pt-2 "><span className="text-xl  text-yellow-600"> &quot;Accepted and Presented papers of IEEE ICACIC 2023 will be submitted for inclusion
+into IEEE Xplore Digital library subject to meeting IEEE Xplore’s scope and quality requirements”
+            </span></marquee>
     
-    <div class="p-5 hidden lg:block">
-    <div class="flex justify-center items-baseline flex-wrap">
+    <div className="p-5  hidden lg:block">
+    <div class="flex sticky top-20 z-50 justify-center items-baseline flex-wrap">
         
         <div class="flex m-2">
         <Link to="/"><button  class="text-base  rounded-r-none  hover:scale-110 focus:outline-none flex justify-center px-4 py-2 rounded font-bold cursor-pointer 

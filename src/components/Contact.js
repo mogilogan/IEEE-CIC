@@ -32,7 +32,7 @@ const Contact  = ()=>{
             <p
               className='px-12 font-bold text-2xl pb-6   text-left mx-auto'
             >
-               ICACIC 2023
+               IEEE ICACIC 2023
             </p>
 
 

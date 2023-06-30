@@ -53,9 +53,9 @@ Puducherry Technological University <br/>PUDUCHERRY<br/> INDIA
       </div>
     </div>
   </div>
-  <div className="bg-blue-900  p-4 text-center text-3xl text-yellow-500">
+  <div className="bg-blue-900  p-4 text-center text-2xl text-yellow-500">
   <div></div>
-    <span><b>ICACIC 2023</b></span>
+    <span><b>Copyright <span className="text-xl">© </span>IEEE ICACIC 2023</b></span>
    
     <span className="text-[20px] text-blue-300"><br/>{searchParams.get('type')}</span>
    
