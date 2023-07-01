@@ -16,9 +16,9 @@ const Header  = ()=>{
     <div>
     <section class="bg-[url('/src/components/assests/bgchange.png')] bg-contain bg-repeat-x  flex space-x-4">
     <div className='pl-4 sm:py-1'>
-      <img className='max-w-lg max-h-24 md:max-h-40  mx-auto' alt='logo' src={ptulogo}/>
+      <img className='max-w-lg max-h-16 sm:max-h-24  md:max-h-40  mx-auto' alt='logo' src={ptulogo}/>
       <div className='pt-[30px]'>
-      <img className='max-w-md max-h-10 sm:max-h-16 md:max-h-[100px]  mx-auto' alt='logo' src={ieeadva}/>
+      <img className='max-w-md max-h-9 sm:max-h-16 md:max-h-[100px]  mx-auto' alt='logo' src={ieeadva}/>
       </div>
 </div>
       <div className='mx-auto py-4'>
@@ -39,9 +39,9 @@ Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
           </div>
         </div>
         <div className='py-4 items-right sm:py-1'>
-        <img className='max-w-md md:max-h-40   max-h-20 ' alt='ciclogo' src={logotrans}/>
+        <img className='max-w-md md:max-h-40 max-h-14   sm:max-h-20 ' alt='ciclogo' src={logotrans}/>
         <div className='pt-10'>
-        <img className='max-w-md max-h-10 sm:max-h-16 md:max-h-[70px]  mx-auto' alt='logo' src={ieeemad}/>
+        <img className='max-w-md max-h-8 sm:max-h-16 md:max-h-[70px]  mx-auto' alt='logo' src={ieeemad}/>
         
         </div></div>
       
