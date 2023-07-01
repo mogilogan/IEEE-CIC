@@ -43,7 +43,7 @@ const Contact  = ()=>{
             <b>Dr. R. Gunasundari</b>
             </p>
 
-            <p className='px-12 text-xl pb-6 text-center   mx-auto'>ORGANIZING CHAIRS</p>
+            <p className='px-12 text-xl pb-6 text-center   mx-auto'>CONFERENCE CHAIRS</p>
 
 
             <p className='px-12 pb-4  text-center mx-auto'>

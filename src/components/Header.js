@@ -30,7 +30,7 @@ const Header  = ()=>{
               <span className=" hidden sm:block">IEEE SECOND INTERNATIONAL CONFERENCE ON ADVANCES IN
 COMPUTATIONAL INTELLIGENCE AND COMMUNICATION</span>
             </h1>
-            <h1 className='py-4 text-center text-lg md:text-2xl font-black leading-none tracking-normal md:tracking-tight'><span className="block w-full pb-4 text-transparent bg-clip-text text-[20px] sm:text-lg md:text-3xl text-yellow-500 leading-12  lg:inline  ">IEEE ICACIC 2023<br/>7<sup>th </sup> & 8<sup>th</sup> December 2023</span><span className='hidden  text-blue-800 text-2xl lg:pt-4 lg:block'>
+            <h1 className='py-4 text-center text-lg md:text-2xl font-bold leading-none tracking-normal md:tracking-tight'><span className="block w-full pb-4 text-transparent bg-clip-text text-[20px] sm:text-lg md:text-3xl text-yellow-500 leading-12  lg:inline  ">IEEE ICACIC 2023<br/>7<sup>th </sup> & 8<sup>th</sup> December 2023</span><span className='hidden  text-blue-800 text-lg md:text-2xl lg:pt-4 sm:block'>
 Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
 
             <div class="mb-0 space-x-0 md:space-x-2 md:mb-8">
@@ -39,7 +39,7 @@ Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
           </div>
         </div>
         <div className='py-4 items-right sm:py-1'>
-        <img className='max-w-md md:max-h-40   sm:max-h-20 max-h-20 ' alt='ciclogo' src={logotrans}/>
+        <img className='max-w-md md:max-h-40   max-h-20 ' alt='ciclogo' src={logotrans}/>
         <div className='pt-10'>
         <img className='max-w-md max-h-10 sm:max-h-16 md:max-h-[70px]  mx-auto' alt='logo' src={ieeemad}/>
         
