@@ -25,7 +25,7 @@ const Call  = ()=>{
             <ul class="list-disc text-gray-200 text-lg mx-auto text-left px-12">
   <li><p className='text-left pb-2 mx-auto'>The IEEE ICACIC 2023 conference plans to include only quality papers with significant contributions. All submissions will be screened for plagiarism and all submitted papers will undergo a peer review process by the Technical Program Committee, coordinated by the Conference Organizing Committee. Each manuscript will be reviewed by a minimum of 2-3 reviewers.</p>
   </li>
-  <li><p className='text-left py-2 mx-auto'>Accepted and Presented papers of IEEE ICACIC 2023 will be submitted for inclusion into IEEE Xplore Digital Library subject to meeting the IEEE Xplore’s scope and quality requirements.</p></li>
+  <li><p className='text-left py-2 mx-auto'>Accepted and Presented papers of IEEE ICACIC 2023 will be published in IEEE Xplore Digital Library subject to meeting the IEEE Xplore’s scope and quality requirements.</p></li>
   <li><p className='text-left py-2 mx-auto'>Best papers will be duly awarded.</p></li>
   <li><p className='text-left py-2 mx-auto'>Extended works of authors of the best papers will be recommended for publication in Indexed Journals</p></li>
 

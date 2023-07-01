@@ -25,16 +25,15 @@ const Home  = ()=>{
 
     >
       <div className='container  rounded-3xl  mx-auto bg-gradient-to-br from-blue-900  to-blue-400'>
-      {/* <marquee className="py-5"><span className="text-xl  text-yellow-600"> Accepted and Registered papers of IEEE ICACIC 2016 will be published in ESCI-IP&Sc Thomson Reuters-Web of Science, Scopus & Anna Univ-Annex-II International Journals. Substantially Extended Versions of High Quality Papers will be considered for publication in Special Issue of Int. J. of Advanced Intelligence Paradigms, Inderscience, AEU Int.J of E&C, Elsevier* and Int.J. of Ambient Computing & Intelligence, IGI-Global. See Publications for more details.
-            </span></marquee> */}
+      
            
 
       <h1 className="text-3xl pl-4 font-bold text-gray-200 text-left py-4">IEEE ICACIC 2023</h1>
-        <div className='    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0    '>
+        <div className='justify-center items-center content-center    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0    '>
            
         <div className='flex-1' data-aos='zoom-in-left'>
             {/* <img className="border-white" src={home1} alt='' /> */}
-            <Carousel className="max-w-lg" stopOnHover autoPlay  infiniteLoop showArrows={false} showStatus={false} showThumbs={false} interval={1500} dynamicHeight={false} showIndicators={false}>
+            <Carousel className="max-w-lg" stopOnHover autoPlay  infiniteLoop showArrows={false} showStatus={false} showThumbs={false} interval={1800} dynamicHeight={false} showIndicators={false}>
                 <div>
                     <img src={home1} />
                     
@@ -89,7 +88,7 @@ Authors of the accepted papers who are unable to attend the conference in person
             </p>
             <p
               className='md:px-12 text-justify text-lg py-4 text-gray-100  text-left mx-auto'
-            >Authors are invited to contribute original research papers for electronic submission via the Microsoft CMT link <a title="Microsoft CMT - CIC23" className="text-yellow-400 hover:text-slate-900" href=" https://cmt3.research.microsoft.com/CIC2023" target="_blank"> https://cmt3.research.microsoft.com/CIC2023</a>
+            >Authors are invited to contribute original research papers for electronic submission via the Microsoft CMT link <a title="Microsoft CMT - CIC23" className="text-yellow-400 break-all hover:text-slate-900" href="https://cmt3.research.microsoft.com/IEEEICACIC2023" target="_blank">https://cmt3.research.microsoft.com/IEEEICACIC2023</a>
             </p>
           </div>
         </div>
