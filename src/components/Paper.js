@@ -27,7 +27,7 @@ const Paper  = ()=>{
             <p
               className='px-12 pt-4 text-xl  text-left mx-auto'
             >
-            Kindly ensure that the paper is formatted as per IEEE template (not exceeding 6 pages) including figures and references. Click <a href={IEEETemplate}  download="IEEE-paper-format" className="text-xl text-slate-800">here</a> for IEEE  template format.
+            Kindly ensure that the paper is formatted as per IEEE template (not exceeding 6 pages) including figures and references. Click <a href={IEEETemplate}  download="IEEE-paper-format" className="text-xl hover:text-green-300 hover:p-[1px] hover:text-[25px] scale-50  text-yellow-400">here</a> for IEEE  template format.
             </p>
             <p
               className='px-12 pt-4 text-xl  text-left mx-auto'
