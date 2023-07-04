@@ -38,8 +38,7 @@ Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
         </div>
 
 
-        <div className='py-4 sm:pl-0
-         ml-[20px] sm:py-1 '>
+        <div className='py-4 sm:pl-0 ml-[20px] sm:py-1 '>
         <img className='max-w-md md:max-h-40 max-h-14   sm:max-h-20 ' alt='ciclogo' src={logotrans}/>
         <div className='pt-10'>
         <img className='max-w-md max-h-8 sm:max-h-16 md:max-h-[70px] ' alt='logo' src={ieeemad}/>
