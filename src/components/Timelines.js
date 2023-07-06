@@ -10,7 +10,7 @@ const Timelines  = ()=>{
       id="#About"
 
     >
-      <div className='container mx-auto'>
+      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container mx-auto'>
         <div className='   pb-12 flex flex-col    '>
             <div className="">
           <div className='flex-1 '>
@@ -21,7 +21,7 @@ const Timelines  = ()=>{
           
         <div className=' mx-auto   gap-0 text-left'>
           
-          <table class="mx-auto text-xl bg-white shadow-light-inner-neumorphism-xl rounded-xl table-auto border-collapse border border-slate-900">
+          <table class="mx-auto text-[14px] sm:text-xl bg-white shadow-light-inner-neumorphism-xl rounded-xl table-auto border-collapse border border-slate-900">
   <thead>
     <tr className="hover:bg-red-200 " >
       <th class="border-r py-2 px-2 border-slate-400   ">Submission of Full Paper</th>

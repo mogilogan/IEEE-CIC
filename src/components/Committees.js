@@ -34,7 +34,7 @@ const Committees = ()=>{
 
 
               <div className="py-2">
-              <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+              <div class="max-w-[360px] sm:max-w-[450px] md:max-w-[600px]  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
               <div class="px-6 py-2">
               <div class="font-bold  text-xl mb-2">General Chair</div>
                  <p class="text-gray-100 text-center text-base">
@@ -48,7 +48,7 @@ const Committees = ()=>{
               </div>
 
               <div className="py-2">
-              <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+              <div class="max-w-[360px] sm:max-w-[450px] md:max-w-[600px]  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
               <div class="px-6 py-2">
               <div class="font-bold text-xl mb-2">Co-Chair</div>
                  <p class="text-gray-100 text-center text-base">
@@ -63,7 +63,7 @@ const Committees = ()=>{
 
 
               <div className="py-2">
-              <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+              <div class="max-w-[360px] sm:max-w-[450px] md:max-w-[600px]  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
               <div class="px-6 py-2">
               <div class="font-bold text-xl mb-2">Apex Committee</div>
                  <p class="text-gray-100 text-center text-base">
@@ -86,7 +86,7 @@ const Committees = ()=>{
 
 
               <div className="py-2">
-              <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+              <div class="max-w-[360px] sm:max-w-[450px] md:max-w-[600px]  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
               <div class="px-6 py-2">
               <div class="font-bold text-xl mb-2">Conference Chairs</div>
                  <p class="text-gray-100 text-center text-base">
@@ -108,7 +108,7 @@ const Committees = ()=>{
               </div>
 
               <div className="py-2">
-              <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+              <div class="max-w-[360px] sm:max-w-[450px] md:max-w-[600px]  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
 
               <div class="px-6 py-2">
               <div class="font-bold text-xl mb-2">Executive Committee</div>
@@ -150,7 +150,7 @@ const Committees = ()=>{
 
 
               <div className="py-2">
-              <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+              <div class="max-w-[360px] sm:max-w-[450px] md:max-w-[600px]  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
               <div class="px-6 py-2">
               <div class="font-bold text-xl mb-2">Advisory Committee</div>
                  <p class="text-gray-100 text-center text-base">
@@ -343,7 +343,7 @@ const Committees = ()=>{
 
 
               <div className="py-2">
-              <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+              <div class="max-w-[360px] sm:max-w-[450px] md:max-w-[600px]  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
               <div class="px-6 py-2">
               <div class="font-bold text-xl mb-2">Conference Execution Committee</div>
                  <p class="text-gray-100 text-center text-base">
@@ -408,7 +408,7 @@ const Committees = ()=>{
 
 
               <div className="py-2">
-              <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+              <div class="max-w-[360px] sm:max-w-[450px] md:max-w-[600px]  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
               <div class="px-6 py-2">
               <div class="font-bold text-xl mb-2">Publication Committee</div>
                  <p class="text-gray-100 text-center text-base">
@@ -438,7 +438,7 @@ const Committees = ()=>{
               </div>
 
               <div className="py-2">
-              <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+              <div class="max-w-[360px] sm:max-w-[450px] md:max-w-[600px]  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
               <div class="px-6 py-2">
               <div class="font-bold text-xl mb-2">Workshop & Publicity Committee</div>
                  <p class="text-gray-100 text-center text-base">
@@ -466,7 +466,7 @@ const Committees = ()=>{
 
 
               <div className="py-2">
-              <div class="max-w-lg  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
+              <div class="max-w-[360px] sm:max-w-[450px] md:max-w-[600px]  bg-gradient-to-br from-blue-800 to-blue-400 mx-auto rounded-xl overflow-hidden shadow-lg">
               <div class="px-6 py-2">
               <div class="font-bold text-xl mb-2">Students' Organizing Commitee</div>
                  <p class="text-gray-100 text-center text-base">

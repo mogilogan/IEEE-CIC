@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Route, Routes } from 'react-router-dom';
 
 import Header from "./components/Header";
@@ -11,8 +11,13 @@ import Registrations from "./components/Registrations";
 import Timelines from "./components/Timelines";
 import Venue from "./components/Venue";
 import Footer from "./components/Footer";
+import BackToTopButton from "./components/BacktoTop";
+
+
 
 function App() {
+
+  const [isVisible, setIsVisible] = useState(false);
   return (
     <div className="max-w-full" >
       
@@ -34,7 +39,9 @@ function App() {
      
       </div>
       
+      
       <Footer  />
+      <BackToTopButton />
      
     </div>
   );

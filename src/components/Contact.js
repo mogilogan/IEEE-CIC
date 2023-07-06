@@ -21,7 +21,7 @@ const Contact  = ()=>{
       id="#About"
 
     >
-      <div className='container py-8 mx-auto'>
+      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container py-8 mx-auto'>
         <div className=' bg-white rounded-xl    pb-12 flex flex-col    '>
             <div className="">
           <div className='flex-1 rounded-tr-xl rounded-tl-xl bg-gradient-to-br from-blue-600 to-blue-400 '>

@@ -14,19 +14,19 @@ const Header  = ()=>{
     
   return (
     <div>
-    <section class="bg-[url('/src/components/assests/bgchange.png')]  bg-repeat-x max-w-full">
-      <div className='flex space-x-[70px] '>
+    <section class="bg-[url('../public/comp4.gif')] bg-cover bg-fixed   max-w-full">
+      <div className='grid grid-cols-3 gap-6'>
 
     {/* 1st two images */}
     <div className='pl-4 sm:py-1 py-4'>
       <img className='max-w-lg max-h-16 sm:max-h-24  md:max-h-40  ' alt='logo' src={ptulogo}/>
-      <div className='pt-[30px]'>
+      <div className='pt-[30px] mr-16 md:mr-[300px]'>
       <img className='max-w-md max-h-9 sm:max-h-16 md:max-h-[100px]  mx-auto' alt='logo' src={ieeadva}/>
       </div>
     </div>
 
     {/* //center text */}
-        <div class=" mx-auto max-w-7xl">
+        <div class=" mx-auto max-w-7xl xl:col-start-2 ">
           <div class="mx-auto text-left md:w-11/12 xl:w-9/12 md:text-center">
             <h1 class="pb-4  text-blue-800 text-lg md:text-2xl text-center md:font-bold xl:font-extrabold leading-none tracking-normal   md:tracking-tight">
               <span className=" hidden sm:block">IEEE SECOND INTERNATIONAL CONFERENCE ON ADVANCES IN
@@ -38,13 +38,13 @@ Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
         </div>
 
 
-        <div className='py-4 sm:pl-0 ml-[20px] sm:py-1 '>
-        <img className='max-w-md md:max-h-40 max-h-14   sm:max-h-20 ' alt='ciclogo' src={logotrans}/>
+        <div className='py-4 sm:pl-0 ml-4 sm:ml-8 md:ml-[68px] lg:ml-[150px] xl:ml-[250px] sm:py-1 '>
+        <img className='max-w-md md:max-h-36 max-h-14 ml-4  md:ml-8  sm:max-h-20 ' alt='ciclogo' src={logotrans}/>
         <div className='pt-10'>
-        <img className='max-w-md max-h-8 sm:max-h-16 md:max-h-[70px] ' alt='logo' src={ieeemad}/>
+        <img className='max-w-md max-h-8 sm:max-h-12 md:max-h-[70px] ' alt='logo' src={ieeemad}/>
         </div>
-        
         </div>
+
         </div>
         <h1 className='block py-2 lg:hidden  text-center text-blue-800 text-[12px] sm:text-lg md:text-2xl lg:pt-4 '>Puducherry Technological University<br/> Puducherry-605014, India</h1>
     </section >

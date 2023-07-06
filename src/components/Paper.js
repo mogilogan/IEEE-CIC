@@ -13,24 +13,24 @@ const Paper  = ()=>{
       id="#About"
 
     >
-      <div className='container py-8 mx-auto'>
+      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container py-8 mx-auto'>
         <div className=' bg-gradient-to-br from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col    '>
           <div className='flex-1 text-gray-100 '>
             <h2 className='h2 mb-10 px-4 pt-2 text-yellow-500 font font-black text-2xl' >
             INFORMATION TO AUTHORS:
             </h2>
             <p
-              className='px-12 text-xl  text-left mx-auto'
+              className='px-12 text-[14px] sm:text-lg  text-left mx-auto'
             >
             The original unpublished manuscripts having maximum length of 6 pages on the topics related to the theme of the conference are invited for presentation/publication in the conference proceedings.
             </p>
             <p
-              className='px-12 pt-4 text-xl  text-left mx-auto'
+              className='px-12 pt-4 text-[14px] sm:text-lg  text-left mx-auto'
             >
             Kindly ensure that the paper is formatted as per IEEE template (not exceeding 6 pages) including figures and references. Click <a href={IEEETemplate}  download="IEEE-paper-format" className="text-xl hover:text-green-300 hover:p-[1px] hover:text-[25px] scale-50  text-yellow-400">here</a> for IEEE  template format.
             </p>
             <p
-              className='px-12 pt-4 text-xl  text-left mx-auto'
+              className='px-12 pt-4 text-[14px] sm:text-lg  text-left mx-auto'
             >
               Submissions must include title, abstract, keywords, author and affiliation with e-mail address. The paper should not contain page numbers.
             </p>
@@ -44,13 +44,13 @@ const Paper  = ()=>{
       id="#About"
 
     >
-      <div className='container py-8 mx-auto'>
+      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container py-8 mx-auto'>
         <div className=' bg-gradient-to-br from-blue-800 to-blue-400   py-8 rounded-xl flex flex-col'>
           <div className='flex-1 text-gray-100'>
             <h2 className='h2 mb-10 px-4 pt-2 font font-black text-yellow-500 text-2xl' >
             SUBMISSION INSTRUCTIONS
             </h2>
-            <ul class="list-decimal text-xl mx-auto text-left px-12">
+            <ul class="list-decimal text-[14px] sm:text-lg mx-auto text-left px-12">
   <li><p className='text-left pb-5 mx-auto'>All papers that confirm to submission guidelines will be peer reviewed by 2-3 reviewers and evaluated based on originality, technical and / or research content/ depth, correctness, relevance to conference, contributions and readability.</p>
   </li>
   <li><p className='text-left py-2 mx-auto'>Acceptance of paper will be communicated by email.</p></li>

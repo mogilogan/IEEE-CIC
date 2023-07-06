@@ -17,12 +17,12 @@ const Call  = ()=>{
     >
 
 <div className="pb-6 ">
-        <div className='container bg-emerald-700 rounded-xl   mx-auto '>
+        <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container bg-emerald-700 rounded-xl   mx-auto '>
       <h2 className='h2 mb-4 px-4 pt-2 font font-black rounded-tl-xl rounded-tr-xl bg-emerald-900 pb-3 text-white text-xl' >
             CONFERENCE PUBLICATIONS
             </h2>
             <div className="">
-            <ul class="list-disc text-gray-200 text-lg mx-auto text-left px-12">
+            <ul class="list-disc text-gray-200 text-[13px] sm:text-lg mx-auto text-left px-12">
   <li><p className='text-left pb-2 mx-auto'>The IEEE ICACIC 2023 conference plans to include only quality papers with significant contributions. All submissions will be screened for plagiarism and all submitted papers will undergo a peer review process by the Technical Program Committee, coordinated by the Conference Organizing Committee. Each manuscript will be reviewed by a minimum of 2-3 reviewers.</p>
   </li>
   <li><p className='text-left py-2 mx-auto'>Accepted and Presented papers of IEEE ICACIC 2023 will be published in <span className="text-yellow-500">IEEE Xplore</span> Digital Library subject to meeting the IEEE Xplore’s scope and quality requirements.</p></li>
@@ -36,7 +36,7 @@ const Call  = ()=>{
       </div>
 
 
-      <div className='container mx-auto '>
+      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container mx-auto '>
 
         <div className=' pb-12 flex flex-col  shadow-dark-neumorphism-xl rounded-xl   bg-emerald-700 '>
           <div className='flex-1 '>
