@@ -27,7 +27,7 @@ const Venue = ()=>{
       id="#About"
 
     >
-      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container rounded-xl  bg-gradient-to-br from-blue-500 to-blue-200 mx-auto '>
+      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-[1200px] container rounded-xl  bg-gradient-to-br from-blue-500 to-blue-200 mx-auto '>
            
 
       <h1 className="text-3xl pl-4 font-bold text-white text-left py-4">PUDUCHERRY</h1>
@@ -63,7 +63,7 @@ const Venue = ()=>{
       id="#About"
 
     >
-      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container rounded-xl mx-auto bg-gradient-to-br from-blue-500 to-blue-200'>
+      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-[1200px] container rounded-xl mx-auto bg-gradient-to-br from-blue-500 to-blue-200'>
            
 
       <h1 className="text-3xl pl-4 font-bold text-white text-left py-4">PUDUCHERRY TECHNOLOGICAL UNIVERSITY</h1>
@@ -76,7 +76,7 @@ const Venue = ()=>{
 
         <div className='   min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row  xl:text-left  xl:gap-x-[40px] xl:pb-0    '>
            
-        <div className='flex-1 center mx-auto' data-aos='zoom-in-left'>
+        <div className='flex-1 center mx-auto my-auto' data-aos='zoom-in-left'>
             <img className="border-white xl:max-h-[500px] max-h-[700px]" src={ptubuild}  alt='' />
           </div>
           <div className='flex-1 '>
@@ -96,7 +96,7 @@ Puducherry Technological University (PTU) is the first state University of Union
       id="#About"
 
     >
-      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container rounded-xl mx-auto bg-gradient-to-br from-blue-500 to-blue-200'>
+      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-[1200px] container rounded-xl mx-auto bg-gradient-to-br from-blue-500 to-blue-200'>
            
 
       <h1 className="text-3xl pl-4 font-bold text-white text-left py-4">DEPARTMENT OF ELECTRONICS AND COMMUNICATION ENGINEERING</h1>
@@ -109,8 +109,8 @@ Puducherry Technological University (PTU) is the first state University of Union
 
         <div className='    min-h-[560px] px-12 pb-12 flex flex-col text-center xl:flex-row  xl:text-left  xl:gap-x-[40px] xl:pb-0    '>
            
-        <div className='flex-1 center mx-auto' data-aos='zoom-in-left'>
-            <img className="border-white xl:max-h-[500px] max-h-[700px]" src={ece}  alt='' />
+        <div className='flex-1 center mx-auto my-auto' data-aos='zoom-in-left'>
+            <img className="border-white xl:max-h-[500px] max-h-[700px] " src={ece}  alt='' />
           </div>
           <div className='flex-1 '>
             <p
@@ -129,7 +129,7 @@ Puducherry Technological University (PTU) is the first state University of Union
       id="#About"
 
     >
-      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container rounded-xl mx-auto bg-white'>
+      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-[1200px] container rounded-xl mx-auto bg-white'>
         <div className='   pb-12 flex flex-col    '>
             <div className="">
           <div className='flex-1 rounded-tl-xl rounded-tr-xl bg-blue-500'>

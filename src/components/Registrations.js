@@ -30,35 +30,35 @@ const Registrations  = ()=>{
      
         <div className=' pt-6  mx-auto text-left'>
          
-          <table className=" rounded-xl bg-gradient-to-br from-red-500 to-red-300  mx-auto border-slate-700">
+          <table className=" rounded-xl max-w-[650px] bg-gradient-to-br from-red-500 to-red-300  mx-auto border-slate-700">
   <tr className=" text-center text-[14px] sm:text-lg">
     <th className="border-b py-2 border-slate-700">CATEGORY</th>
     <th className="border-b py-2  border-l border-r border-slate-700" colSpan={2}>IEEE Members</th>
     <th className="border-b py-2  border-slate-700" colSpan={2}>NON - IEEE Members</th>
   </tr>
   <tr className=" text-center text-[14px] sm:text-lg">
-    <th className="border py-2  border-slate-700"></th>
+    <th className="border-b border-t py-2  border-slate-700"></th>
     <th className="border border-slate-700">Early Bird*</th>
     <th className="border py-2 px-4 border-slate-700">Late</th>
     <th className="border py-2  border-slate-700">Early Bird*</th>
     <th className="border py-2  border-slate-700">Late</th>
   </tr>
   <tr className="text-center text-[14px] sm:text-lg hover:bg-yellow-500">
-    <td className="border py-3 border-slate-700">Industry Participants</td>
+    <td className="border-b border-t py-3 border-slate-700">Industry Participants</td>
     <td className="border py-3  border-slate-700">$200</td>
     <td className="border border-slate-700">$250</td>
     <td className="border border-slate-700">$250</td>
     <td className="border border-slate-700">$300</td>
   </tr>
   <tr className=" text-center text-[14px] sm:text-lg  hover:bg-yellow-500">
-    <td className="border py-3  border-slate-700">Faculty Members</td>
+    <td className="border-b border-t py-3  border-slate-700">Faculty Members</td>
     <td className="border border-slate-700">$120</td>
     <td className="border border-slate-700">$140</td>
     <td className="border border-slate-700">$130</td>
     <td className="border border-slate-700">$150</td>
   </tr>
   <tr className="text-center text-[14px] sm:text-lg  hover:bg-yellow-500">
-    <td className="border py-3  border-slate-700">Research Scholars,Student Authors(UG & PG)</td>
+    <td className="border-b border-t py-3  border-slate-700">Research Scholars,Student Authors(UG & PG)</td>
     <td className="border border-slate-700">$100</td>
     <td className="border border-slate-700">$120</td>
     <td className="border border-slate-700">$110</td>
@@ -86,42 +86,42 @@ const Registrations  = ()=>{
      
         <div className=' pt-6  mx-auto text-left'>
          
-          <table className="border-collapse rounded-xl bg-gradient-to-br from-red-500 to-red-300  mx-auto border-slate-700">
+          <table className="border-collapse max-w-[650px] rounded-xl bg-gradient-to-br from-red-500 to-red-300  mx-auto border-slate-700">
   <tr className="text-center text-[14px] sm:text-lg">
     <th className="py-2 border-slate-700">CATEGORY</th>
     <th className="border-r border-l border-b border-slate-700" colSpan={2}>IEEE Members</th>
     <th className="border-b border-slate-700" colSpan={2}>NON - IEEE Members</th>
   </tr>
   <tr className="text-center text-[14px] sm:text-lg">
-    <th className="border py-2 border-slate-700"></th>
+    <th className="border-t py-2 border-slate-700"></th>
     <th className="border border-slate-700">Early Bird*</th>
     <th className="border px-4  py-2 border-slate-700">Late</th>
     <th className="border border-slate-700">Early Bird*</th>
     <th className="border border-slate-700">Late</th>
   </tr>
   <tr className="text-center text-[14px] sm:text-lg hover:bg-yellow-500">
-    <td className="border py-3 border-slate-700">Industry Participants</td>
+    <td className="border-b border-t py-3 border-slate-700">Industry Participants</td>
     <td className="border border-slate-700">&#8377;9000</td>
     <td className="border border-slate-700">&#8377;10,000</td>
     <td className="border border-slate-700">&#8377;9500</td>
     <td className="border border-slate-700">&#8377;10,000</td>
   </tr>
   <tr className=" text-center text-[14px] sm:text-lg hover:bg-yellow-500">
-    <td className="border py-3 border-slate-700">Faculty Members</td>
+    <td className="border-b py-3 border-slate-700">Faculty Members</td>
     <td className="border border-slate-700">&#8377;5500</td>
     <td className="border border-slate-700">&#8377;6000</td>
     <td className="border border-slate-700">&#8377;6500</td>
     <td className="border border-slate-700">&#8377;7000</td>
   </tr>
   <tr className="text-center text-[14px] sm:text-lg hover:bg-yellow-500">
-    <td className="border py-3 border-slate-700">Research Scholars, Student Authors(UG & PG)</td>
+    <td className="border-b  py-3 border-slate-700">Research Scholars, Student Authors(UG & PG)</td>
     <td className="border border-slate-700">&#8377;4500</td>
     <td className="border border-slate-700">&#8377;5000</td>
     <td className="border border-slate-700">&#8377;5500</td>
     <td className="border border-slate-700">&#8377;6000</td>
   </tr>
   <tr className="text-center text-[14px] sm:text-lg hover:bg-yellow-500">
-    <td className="border py-3 border-slate-700">Listeners</td>
+    <td className="border-t py-3 border-slate-700">Listeners</td>
     <td className="border border-slate-700">&#8377;1500</td>
     <td className="border border-slate-700">&#8377;1500</td>
     <td className="border border-slate-700">&#8377;1500</td>
@@ -141,7 +141,7 @@ const Registrations  = ()=>{
 <div className="pb-6 ">
 <div className='container mx-auto '>
 <div className=' pt-6  mx-auto text-left'>
-<table className="border-collapse rounded-xl max-w-[690px] bg-gradient-to-br from-red-500 to-red-300  mx-auto border-slate-700">
+<table className="border-collapse rounded-xl max-w-[650px] bg-gradient-to-br from-red-500 to-red-300  mx-auto border-slate-700">
   <tr className="text-center text-[14px] sm:text-lg">
     <th className="border-b py-2 border-slate-700">In Favour of:</th>
     <th className=" border-l border-b border-slate-700" >Computational Intelligence and Communication</th>

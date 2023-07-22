@@ -14,13 +14,13 @@ const Header  = ()=>{
     
   return (
     <div>
-    <section class="bg-[url('../public/comp4.gif')] bg-cover bg-fixed   max-w-full">
+    <section class="bg-[url('../public/comp4.gif')]  bg-fixed   max-w-full">
       <div className='grid grid-cols-3 gap-6'>
 
     {/* 1st two images */}
     <div className='pl-4 sm:py-1 py-4'>
       <img className='max-w-lg max-h-16 sm:max-h-24  md:max-h-40  ' alt='logo' src={ptulogo}/>
-      <div className='pt-[30px] mr-16 md:mr-[300px]'>
+      <div className='pt-[30px] mr-16 md:mr-[400px]'>
       <img className='max-w-md max-h-9 sm:max-h-16 md:max-h-[100px]  mx-auto' alt='logo' src={ieeadva}/>
       </div>
     </div>
@@ -40,7 +40,7 @@ Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
 
         <div className='py-4 sm:pl-0 ml-4 sm:ml-8 md:ml-[68px] lg:ml-[150px] xl:ml-[250px] sm:py-1 '>
         <img className='max-w-md md:max-h-36 max-h-14 ml-4  md:ml-8  sm:max-h-20 ' alt='ciclogo' src={logotrans}/>
-        <div className='pt-10'>
+        <div className='pt-10 '>
         <img className='max-w-md max-h-8 sm:max-h-12 md:max-h-[70px] ' alt='logo' src={ieeemad}/>
         </div>
         </div>
@@ -48,10 +48,6 @@ Puducherry Technological University<br/> Puducherry-605014, India</span></h1>
         </div>
         <h1 className='block py-2 lg:hidden  text-center text-blue-800 text-[12px] sm:text-lg md:text-2xl lg:pt-4 '>Puducherry Technological University<br/> Puducherry-605014, India</h1>
     </section >
-
-
-
-
 
 
     <h1  className='text-xl text-center font-bold text-blue-800 sm:text-3xl  lg:block'>
@@ -62,6 +58,9 @@ Conference ID: 59454</h1>
 
 <marquee className="pt-2 "><span className="text-xl  text-yellow-600"> "Accepted and Presented papers of IEEE ICACIC 2023 will be published in IEEE Xplore Digital Library subject to meeting the IEEE Xplore’s scope and quality requirements."
             </span></marquee>
+
+
+            
     
     <div className="p-5  hidden lg:block">
     <div class="flex sticky top-20 z-50 justify-center items-baseline flex-wrap">

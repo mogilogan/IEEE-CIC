@@ -24,7 +24,7 @@ const Home  = ()=>{
       id="#About"
 
     >
-      <div className='container  rounded-3xl max-w-[360px] sm:max-w-[700px] md:max-w-auto  mx-auto bg-gradient-to-br from-blue-900  to-blue-400'>
+      <div className='container  rounded-3xl max-w-[360px] sm:max-w-[700px] md:max-w-[1200px]  mx-auto bg-gradient-to-br from-blue-900  to-blue-400'>
       
            
 
