@@ -24,7 +24,7 @@ const BackToTopButton = () => {
 
   return (
     <button
-      className={`fixed bottom-4 z-[2000] right-4 bg-gray-800 text-white py-2 px-4 rounded ${
+      className={`fixed bottom-4 z-[2000] right-4 bg-emerald-600 text-white py-2 px-4 rounded ${
         isVisible ? 'block' : 'hidden'
       }`}
       onClick={scrollToTop}

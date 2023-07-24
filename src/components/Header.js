@@ -189,7 +189,7 @@ Conference ID: 59454</h1>
     TIMELINES
   </button></a></Link></div>
  <div className='py-[0.002rem]'>
-  <Link  to="/contact?type=Created%20by%20MOGINDER%20E,%20ECE%20-%203rd%20Year" > <a  class="bg-gray-900 w-full text-white block rounded-md px-3 py-2 text-base font-medium">  <button type="button" >
+  <Link  to="/contact?type=Developed%20by%20MOGINDER%20E,%20ECE%20-%203rd%20Year" > <a  class="bg-gray-900 w-full text-white block rounded-md px-3 py-2 text-base font-medium">  <button type="button" >
     CONTACT
   </button></a></Link></div>
     </div>

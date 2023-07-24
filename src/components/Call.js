@@ -213,7 +213,7 @@ const Call  = ()=>{
       <td class=" w-52 py-2 px-2 border-slate-500   text-gray-100">Distributed and parallel Algorithms</td>
     </tr>
     <tr className="border-b border-gray-900">
-      <td class=" w-52 py-2 px-2 border-slate-500   text-gray-100">Visualizationand VirtualReality as Applied toComputational Science</td>
+      <td class=" w-52 py-2 px-2 border-slate-500   text-gray-100">Visualization and Virtual Reality as Applied to Computational Science</td>
     </tr>
   
     <tr className="border-b border-gray-900">
@@ -347,7 +347,7 @@ const Call  = ()=>{
       <td class=" w-52 py-2 px-2 border-slate-500 text-sm   text-gray-100">Ad Hoc networks</td>
     </tr>
   <tr className="border-b border-gray-900">
-      <td class=" w-52 py-2 px-2 border-slate-500 text-sm   text-gray-100">internet of Things</td>
+      <td class=" w-52 py-2 px-2 border-slate-500 text-sm   text-gray-100">Internet of Things</td>
     </tr>
     <tr className="border-b border-gray-900">
       <td class=" w-52 py-2 px-2 border-slate-500 text-sm   text-gray-100">Cognitive Wireless Sensor Networks</td>
