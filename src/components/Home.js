@@ -7,6 +7,7 @@ import home2 from './assests/home2.jpg';
 import home3 from './assests/Home3.webp';
 import home4 from './assests/home4.jpg';
 import home5 from './assests/home5.jpg';
+import CA from './assests/CA.jpg';
 var Carousel = require('react-responsive-carousel').Carousel;
 
 
@@ -99,6 +100,28 @@ Authors of the accepted papers who are unable to attend the conference in person
       
      
       
+    </section>
+
+
+    <section
+      className='my-[20px] py-6 '
+      id="#About"
+
+    >
+      <div className='max-w-[360px] sm:max-w-[700px] md:max-w-auto container rounded-xl mx-auto bg-white'>
+        <div className=' pb-12 flex flex-col'>
+            <div className="">
+          <div className='flex-1 rounded-tl-xl rounded-tr-xl bg-blue-500 '>
+            <h2 className='h2 mb-10 px-4 py-3 font font-black text-white text-lg' >
+            Media Partners
+            </h2>
+            </div>
+            <div className="">
+              <img src={CA}  className=" mx-auto heart md:max-w-[400px] max-w-[200px]" />
+              </div>
+          </div>
+        </div>
+      </div>
     </section>
     
 

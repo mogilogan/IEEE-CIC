@@ -49,6 +49,15 @@
   }
 
 
+  .heart {
+   
+    animation: beat 1.5s infinite alternate;
+    transform-origin: center;
+  }
   
+  /* Heart beat animation */
+  @keyframes beat{
+    to { transform: scale(1.2); }
+  }
 
  
