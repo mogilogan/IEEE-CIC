@@ -116,8 +116,8 @@ Authors of the accepted papers who are unable to attend the conference in person
             Media Partners
             </h2>
             </div>
-            <div className="">
-              <img src={CA}  className=" mx-auto heart md:max-w-[400px] max-w-[200px]" />
+            <div >
+              <img  onClick={()=>window.open("https://conferencealerts.co.in")} src={CA}  className="cursor-pointer mx-auto heart md:max-w-[400px] max-w-[200px]" />
               </div>
           </div>
         </div>
