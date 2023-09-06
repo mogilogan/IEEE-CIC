@@ -25,7 +25,7 @@ const Timelines  = ()=>{
   <thead>
     <tr className="hover:bg-red-200 " >
       <th class="border-r py-2 px-2 border-slate-400   ">Submission of Full Paper</th>
-      <td class=" py-2 px-2   ">07.09.2023</td>
+      <td class=" py-2 px-2   "><del className="pr-2">07.09.2023 </del>12.09.2023</td>
     </tr>
   </thead>
   <tbody>
