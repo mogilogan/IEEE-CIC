@@ -56,10 +56,8 @@ Technically Co-sponsored by<br/>IEEE Madras Section</h1>
 <h1  className='text-xl text-center font-bold py-4 sm:text-3xl  lg:block'>
 Conference ID: 59454</h1>
 
-<marquee className="pt-2 "><span className="text-xl  text-yellow-600"> <span className='text-md text-teal-700 heart'>"Submission deadline is extended to 12th September 2023. </span>
-Accepted and Presented papers of IEEE ICACIC 2023 will be published in IEEE Xplore Digital Library subject to meeting the IEEE Xplore’s scope and quality requirements."
-            </span></marquee>
-
+<marquee className="pt-2 "><span className="text-xl  text-yellow-600"> <span className='text-md text-teal-700 heart'>"The Paper Acceptance is to be released on or before 20.10.2023 due to delay in review process." </span>
+Accepted and Presented papers of IEEE ICACIC 2023 will be published in IEEE Xplore Digital Library subject to meeting the IEEE Xplore’s scope and quality requirements."            </span></marquee>
 
             
     

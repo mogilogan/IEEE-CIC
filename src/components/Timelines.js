@@ -31,11 +31,11 @@ const Timelines  = ()=>{
   <tbody>
     <tr className="hover:bg-red-200 ">
     <th class="border py-2 px-2 border-slate-400   ">Notification of Acceptance</th>
-      <td class="border py-2 px-2 border-slate-400  ">15.10.2023</td>
+      <td class="border py-2 px-2 border-slate-400  "><del className="pr-2">15.10.2023 </del>20.10.2023</td>
     </tr>
     <tr className="hover:bg-red-200 ">
     <th class="border-t py-2 px-2 border-slate-400   ">Registration and Camera Ready</th>
-      <td class="border py-2 px-2 border-slate-400  ">26.10.2023(Early bird)</td>
+      <td class="border py-2 px-2 border-slate-400  ">23.10.2023(Early bird)</td>
     </tr>
     <tr className="hover:bg-red-200 ">
     <th class="border-b py-2 px-2 border-slate-400   ">Copy Submission</th>
