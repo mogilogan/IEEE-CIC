@@ -87,7 +87,7 @@ const Header = () => {
       </h1>
       <marquee className="pt-2 ">
         <span className="text-xl  text-yellow-600">
-          <a href={docs} download="Program schedule for Conference-23">
+          <a href={docs} download="ICACIC Session wise schedule">
             <img
               width={80}
               className="pr-4 "
@@ -95,14 +95,14 @@ const Header = () => {
               style={{ display: "inline-block" }}
             />
             <span className="text-md text-blue-700 hover:text-teal-500">
-              "CACIC 2023 Program schedule and Paper presentation sessions.
+              "ICACIC 2023 Program schedule and Paper presentation sessions.
               Registered Authors are requested to submit their PPT to
-              cic@ptuniv.edu.in or before 25/11/2023"{" "}
+              cic@ptuniv.edu.in or before 25/11/2023"
             </span>
           </a>
           Accepted and Presented papers of IEEE ICACIC 2023 will be published in
           IEEE Xplore Digital Library subject to meeting the IEEE Xplore’s scope
-          and quality requirements."{" "}
+          and quality requirements."
         </span>
       </marquee>
 
